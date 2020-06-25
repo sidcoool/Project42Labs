@@ -1,0 +1,146 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+
+.color-red {
+  color: #d04a4a;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-black2 {
+    color: #5B5958;
+  }
+
+.bg-red {
+  background-color: #d04a4a;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.nav-design1 {
+  /* position: absolute; */
+  width: 659px;
+  height: 446px;
+  /* left: 781px; */
+  /* top: 1px; */
+
+  background: linear-gradient(
+    148.78deg,
+    #d04a4a 25.42%,
+    rgba(208, 74, 74, 0) 395.81%
+  );
+
+  border-radius: 50%;
+  border-top-left-radius: 350px;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 250px;
+  border-bottom-right-radius: 300px;
+  transform: scale(1.05);
+  /* transform: skew(10deg, 5deg); */
+}
+
+.btn1 {
+  background: transparent;
+  padding: 10px;
+  border: 1px black solid;
+  color: black;
+}
+
+.btn1:hover {
+  background: black;
+  padding: 10px;
+  border: 1px black solid;
+  color: white;
+}
+
+.d-color {
+  text-decoration: none;
+}
+
+.d-color1 {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: larger;
+}
+
+.nav-link {
+  padding: 10px 25px !important;
+}
+
+.bl-red {
+  border-left: #d04a4a 2px solid;
+}
+
+.bl-white {
+  border-left: white 2px solid;
+}
+
+
+
+.bolder {
+  font-weight: 600;
+}
+
+.solution-border {
+  border-top: 1px solid #D04A4A;
+  border-bottom: 1px solid #D04A4A;
+}
+
+.fit-width {
+  width: fit-content;
+}
+
+.box-design1 {
+  background: #ffffff;
+  border: 0.01rem solid  rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 20px;
+}
+
+
+.box-design2 {
+  background: #ffffff;
+  border: 0.01rem solid  rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 20px;
+  max-width: 350px;
+  margin-top: 50px;
+}
