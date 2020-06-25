@@ -18,6 +18,10 @@ body {
   font-size: 20px;
 }
 
+.font-25 {
+  font-size: 25px;
+}
+
 .font-30 {
   font-size: 30px;
 }
@@ -92,9 +96,13 @@ body {
 
 .d-color1 {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 10px 20px;
   font-size: larger;
+}
+
+.d-color2, .d-color2:hover {
+  color: inherit;
 }
 
 .nav-link {
@@ -109,6 +117,9 @@ body {
   border-left: white 2px solid;
 }
 
+.b-red {
+  border: #d04a4a 2px solid;
+}
 
 
 .bolder {
@@ -143,4 +154,32 @@ body {
   padding: 20px;
   max-width: 350px;
   margin-top: 50px;
+}
+
+.box-design3 {
+  background: #ffffff;
+  border: 0.01rem solid  rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 20px;
+  margin: 5px 60px;
+}
+
+.car-l {
+  padding-right: 175px;
+}
+
+
+.car-r {
+  padding-left: 175px;
+}
+
+
+.footer-border {
+  border-top: black 1px solid;
+}
+
+.checked {
+  color: #FF3D2E;
 }
