@@ -36,3 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
+
+function onScroll2() {
+  document.getElementById('navBack').style.backgroundColor = 'white'
+
+  if(window.pageYOffset == 0){
+    document.getElementById('navBack').style.boxShadow = 'none'
+  }
+  else {
+    document.getElementById('navBack').style.boxShadow = '0px 4px 6px rgba(0, 0, 0, 0.15)'
+  }
+}
