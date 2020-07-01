@@ -385,6 +385,7 @@ body {
     padding: 5px 0px;
     min-width: fit-content !important;
     max-width: fit-content !important;
+    max-height: fit-content !important;
   }
 }
 
