@@ -429,7 +429,7 @@ body {
 
 .blogpost-back {
   background-image: url("./images/blogPost-banner.png");
-  height: 450px;
+  min-height: 450px;
 }
 
 .blogpost-nav {
