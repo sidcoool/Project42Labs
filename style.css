@@ -360,7 +360,7 @@ body {
   margin: 10px 15px;
   padding: 5px 20px !important;
   cursor: pointer;
-  max-height: fit-content;
+  height: fit-content !important;
 }
 
 .work-page-bar > .active {
@@ -385,7 +385,6 @@ body {
     padding: 5px 0px;
     min-width: fit-content !important;
     max-width: fit-content !important;
-    max-height: fit-content !important;
   }
 }
 
