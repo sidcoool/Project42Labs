@@ -4,7 +4,7 @@ function bodyScroll() {
   let btn = document.getElementById("sChange");
   let nav = document.getElementById("navBack");
 
-  if (window.pageYOffset > 340) {
+  if (window.pageYOffset > 0) {
     // console.log(x)
     for (let i = 0; i < x.length; i++) {
       x[i].style.color = "black";
