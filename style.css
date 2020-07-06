@@ -56,7 +56,6 @@ body {
   line-height: 24px;
 }
 
-
 .color-black4 {
   color: #565656;
   line-height: 24px;
@@ -88,13 +87,11 @@ body {
   height: 446px;
   /* left: 781px; */
   /* top: 1px; */
-
   background: linear-gradient(
     148.78deg,
     #d04a4a 25.42%,
     rgba(208, 74, 74, 0) 395.81%
   );
-
   border-radius: 50%;
   border-top-left-radius: 350px;
   border-top-right-radius: 0%;
@@ -160,6 +157,21 @@ body {
   color: #d04a4a;
 }
 
+.btn5 {
+  background: #d04a4a;
+  padding: 14px;
+  border: 1px #d04a4a solid;
+  color: white;
+  width: 100%;
+}
+
+.btn5:hover {
+  background: white;
+  padding: 14px;
+  border: 1px #d04a4a solid;
+  color: #d04a4a;
+}
+
 .d-color {
   text-decoration: none;
 }
@@ -215,6 +227,11 @@ body {
   border-left: #d04a4a 2px solid;
 }
 
+
+.br-red {
+  border-right: #d04a4a 2px solid;
+}
+
 .bl-white {
   border-left: white 2px solid;
 }
@@ -236,11 +253,9 @@ body {
   width: fit-content;
 }
 
-
 .fit-height {
   height: fit-content;
 }
-
 
 .box-design1 {
   background: #ffffff;
@@ -288,11 +303,10 @@ body {
   background: #ffffff;
   border: 0.01rem solid rgb(255, 187, 185);
   box-sizing: border-box;
-  color: #5F6B6D;
+  color: #5f6b6d;
   padding: 20px;
   line-height: 25px;
 }
-
 
 .car-l {
   padding-right: 175px;
@@ -314,12 +328,10 @@ body {
   .resHide {
     display: none;
   }
-
   .car-l {
     opacity: 0 !important;
     padding-right: 0px;
   }
-
   .car-r {
     opacity: 0 !important;
     padding-left: 0px;
@@ -368,6 +380,7 @@ body {
   background: transparent !important;
   color: black !important;
 }
+
 /* 
 .scroller1 {
   overflow-x: auto;
@@ -379,7 +392,6 @@ body {
     flex-wrap: nowrap;
     /* max-height: 115px; */
   }
-
   .work-page-head {
     margin: 0px 15px;
     padding: 5px 0px;
@@ -423,9 +435,6 @@ body {
   margin-top: 50px;
 }
 
-
-
-
 /* Blog Post CSS */
 
 .blogpost-back {
@@ -436,7 +445,6 @@ body {
 .blogpost-nav {
   display: block;
 }
-
 
 .blogpost-nav > .active {
   background-color: transparent !important;
@@ -465,3 +473,48 @@ body {
   border-top: black 1px solid;
   border-bottom: black 1px solid;
 }
+
+/* Solutions (RPA) Page CSS */
+
+.rpa-banner {
+  background-image: url("./images/rpa-banner.png");
+  min-height: 380px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.bullet-p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #5a5b5b;
+}
+
+
+.bullet-p2 {
+  font-size: 16px;
+  /* line-height: 30px; */
+  color: #5a5b5b;
+  padding: 2px;
+  padding-left: 15px;
+}
+
+.industry-unit {
+  max-width: 250px;
+  line-height: 30px;
+}
+
+.line-30 {
+  line-height: 30px;
+}
+
+.box-design6 {
+  min-width: 340px;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186);
+  margin-top: 40px;
+  /* padding: 20px; */
+}
+

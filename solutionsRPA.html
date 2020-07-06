@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+
+    <title>
+      Project42 Labs | Brilliant Data Science as a Service, Machine Learning as
+      a Service, Data Analytics, Data Scraping, Web Application Development,
+      Digital Marketing Services | Project42 Labs
+    </title>
+  </head>
+
+  <body onscroll="onScroll2()" ;>
+    <!-- Navbar Starts -->
+    <nav
+      id="navBack"
+      class="navbar navbar-expand-lg navbar-light pb-4 pt-3 sticky-top"
+      style="z-index: 9999;"
+    >
+      <a class="navbar-brand p-0 m-0" href="./index.html">
+        <img src="./images/logo1.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <!-- <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Services <span class="sr-only">(current)</span></a>
+                </li> -->
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="./work.html"
+              >Work <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Company
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto color-white mr-4">
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-phone"></i>
+              <!-- <span class="font-16 pl-2">
+                            +91 988 678 2956
+                        </span> -->
+            </a>
+          </li>
+
+          <li class="nav-item active pl-3">
+            <button id="sChange" class="btn1">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Top Banner Section  -->
+    <div
+      class="container-fluid rpa-banner color-white px-5 pt-md-4 py-md-0 py-4"
+    >
+      <div class="py-2 pt-3">
+        <a href="#!" class="d-color2">Solutions</a>
+        <span>>></span>
+        <a href="#!" class="d-color2">RPA</a>
+      </div>
+      <div class="bl-red pl-4 mt-5">
+        <h1 class="font-35 p-2">RPA</h1>
+        <h2 class="font-25 pt-3 p-2" style="max-width: 420px;">
+          Robotic Process Automation
+        </h2>
+      </div>
+    </div>
+
+    <!-- Automating & optimizing your operations -->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          Automating & optimizing your operations
+        </h1>
+
+        <h4 class="font-18 color-black2 pl-4 pt-4">
+          For us, Robotic Process Automation has always been an area of keen
+          interest and expertise. RPA method brings automation anywhere in an
+          industry where there are rules-based regular business operations. By
+          mimicking human user-actions, a substantial variety of redundant tasks
+          can be performed by this technique. Since it'll help to free up the
+          workforce from mundane duties, it has been one of the trending and
+          emerging technologies in recent times. <br /><br />
+          As an RPA software company, we're able to furnish highly accurate and
+          cost-effective remedies. Our high-quality RPA solutions are consistent
+          since compliance and scalability being their key features. The
+          customized RPA tools will streamline the workflow along with allowing
+          flexibility.
+        </h4>
+      </div>
+    </div>
+
+    <!-- How does it work ? -->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          How does it work ?
+        </h1>
+
+        <h4 class="font-18 color-black2 pl-4 pt-4" style="visibility: hidden;">
+          For us, Robotic Process Automation has always been an area of keen
+          interest and expertise. RPA method brings automation anywhere in an
+          industry where there are rules-based regular business operations. By
+          mimicking human user-actions, a substantial variety of redundant tasks
+          can be performed by this technique. Since it'll help to free up the
+          workforce from mundane duties, it has been one of the trending and
+          emerging technologies in recent times. <br /><br />
+          As an RPA software company, we're able to furnish highly accurate and
+          cost-effective remedies. Our high-quality RPA solutions are consistent
+          since compliance and scalability being their key features. The
+          customized RPA tools will streamline the workflow along with allowing
+          flexibility.
+        </h4>
+      </div>
+    </div>
+
+    <!-- RPA at P42L -->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          RPA at P42L
+        </h1>
+
+        <div class="container-fluid mx-md-5 mx-0 px-0 pt-5">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="d-flex">
+                <div>
+                  <img src="./images/bullet2.png" alt="" />
+                </div>
+
+                <div class="bullet-p pl-4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="d-flex">
+                <div>
+                  <img src="./images/bullet2.png" alt="" />
+                </div>
+
+                <div class="bullet-p pl-4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row pt-4">
+            <div class="col-sm-6">
+              <div class="d-flex">
+                <div>
+                  <img src="./images/bullet2.png" alt="" />
+                </div>
+
+                <div class="bullet-p pl-4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="d-flex">
+                <div>
+                  <img src="./images/bullet2.png" alt="" />
+                </div>
+
+                <div class="bullet-p pl-4">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-red color-white p-4 mt-2">
+      <div class="my-4 ml-2">
+        <h2 class="bl-white pl-3 p-2 font-30 bolder">
+          Industries that can benefit from RPA
+        </h2>
+        <h5 class="font-18 pl-3 pt-3">
+          RPA is employed in a wide assortment of industries to automate
+          conventional chores. Here are some of the RPA use cases:
+        </h5>
+      </div>
+
+      <div class="container-fluid text-center pt-5">
+        <div
+          class="row d-flex justify-content-md-between justify-content-around px-md-5"
+        >
+          <div class="industry-unit">
+            <img src="./images/rpa-bank.png" alt="" />
+            <h6 class="pt-4">Banking & Financial Services</h6>
+            <h6 class="font-14 line-30">
+              Loan processing, card activation, funds transfers, automation of
+              KYC processes, account closure, digital invoice software.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-logistics.png" alt="" />
+            <h6 class="pt-4">Logistics & Travel</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-hospital.png" alt="" />
+            <h6 class="pt-4">Healthcare</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-manufacture.png" alt="" />
+            <h6 class="pt-4">Manufacturing & Retail</h6>
+            <h6 class="font-14 line-30">
+              Supply chain & inventory management, supply planning, promotions,
+              calculation of sales, business invoice software
+            </h6>
+          </div>
+        </div>
+
+        <div
+          class="row d-flex justify-content-md-between justify-content-around px-md-5 pt-5"
+        >
+          <div class="industry-unit">
+            <img src="./images/rpa-bank.png" alt="" />
+            <h6 class="pt-4">Banking & Financial Services</h6>
+            <h6 class="font-14 line-30">
+              Loan processing, card activation, funds transfers, automation of
+              KYC processes, account closure, digital invoice software.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-logistics.png" alt="" />
+            <h6 class="pt-4">Logistics & Travel</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-hospital.png" alt="" />
+            <h6 class="pt-4">Healthcare</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-manufacture.png" alt="" />
+            <h6 class="pt-4">Manufacturing & Retail</h6>
+            <h6 class="font-14 line-30">
+              Supply chain & inventory management, supply planning, promotions,
+              calculation of sales, business invoice software
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Pricing -->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          Pricing
+        </h1>
+      </div>
+
+      <div class="container-fluid p-4">
+        <div class="row d-flex justify-content-around">
+          <div class="box-design6">
+            <div class="p-4">
+              <div class="bl-red p-2 pl-3">
+                <h5 class="font-20 bolder">Package Name</h5>
+                <h6 class="color-red bolder">&#8377; &nbsp; 1,000 / month</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+            </div>
+
+            <button class="btn5">Contact Now</button>
+          </div>
+
+          <div class="box-design6">
+            <div class="p-4">
+              <div class="bl-red p-2 pl-3">
+                <h5 class="font-20 bolder">Package Name</h5>
+                <h6 class="color-red bolder">&#8377; &nbsp; 1,000 / month</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+            </div>
+
+            <button class="btn5">Contact Now</button>
+          </div>
+
+          <div class="box-design6">
+            <div class="p-4">
+              <div class="bl-red p-2 pl-3">
+                <h5 class="font-20 bolder">Package Name</h5>
+                <h6 class="color-red bolder">&#8377; &nbsp; 1,000 / month</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+
+              <div class="d-flex pt-4">
+                <img src="./images/bullet2.png" width="20" height="20" alt="" />
+                <h6 class="bullet-p2">Amet minim mollit minim</h6>
+              </div>
+            </div>
+
+            <button class="btn5">Contact Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- FAQ's -->
+    <div class="container-fluid p-md-5">
+      <div class="row p-md-0 p-5">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          FAQs
+        </h1>
+      </div>
+
+      <div class="container-fluid p-md-4 pr-md-5">
+        <div class="d-flex justify-content-between">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                In which all industries RPA can be implemented ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet1">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet1"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Which all processes can be automated by RPA ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet2">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet2"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Is deploying RPA costly ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet3">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet3"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Will RPA implementation take time ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet4">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet4"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Are RPA bots scalable ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet5">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet5"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Does the execution of RPA require any changes in the business
+                process ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet6">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet6"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Do I need to train my staff to manage RPA bots ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet7">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet7"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5">
+          <div>
+            <div class="d-flex">
+              <img src="./images/bullet2.png" alt="" width="26" height="26" />
+              <h5 class="font-20 pl-4">
+                Why RPA is important and how will it benefit my business in the
+                long term ?
+              </h5>
+            </div>
+
+            <h6 class="bullet-p pt-3 pl-5 collapse" id="bullet8">
+              Industries with data-driven tasks that don't necessarily require
+              human intervention are ideal for RPA. In trades like banking,
+              manufacturing, healthcare, telecommunications etc, RPA can be
+              deployed without a second thought.
+            </h6>
+          </div>
+
+          <div>
+            <i
+              class="fas fa-chevron-down font-23 color-red"
+              data-toggle="collapse"
+              data-target="#bullet8"
+              id="up-down"
+              onclick="arrowToggle(this)"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid p-5">
+      <div class="row" style="max-width: 950px;">
+        <div class="col-sm-6 p-2 br-red">
+          <h2 class="font-30 bolder">
+            Connect with our team to discuss further
+          </h2>
+        </div>
+
+        <div class="col-sm-6 m-auto pl-5">
+          <button class="d-inline btn4">Request a Consultation</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer-border">
+      <div class="row">
+        <div class="col-sm-4 pt-3 pb-2">
+          <div class="px-2">
+            <img src="./images/logo3.png" alt="" />
+          </div>
+
+          <div class="px-5 py-4">
+            <h4 class="font-18">
+              Keeping Technology Simple
+            </h4>
+
+            <h6 class="color-black2 pt-4">
+              We are an ideas-oriented, focussed & a driven brand, creating a
+              culture of tech inclusion for every dream
+            </h6>
+          </div>
+
+          <div class="px-5">
+            <img src="./images/clutch1.png" alt="" />
+
+            <img class="ml-5" src="./images/c1.png" alt="" />
+            <span class="bolder pl-3 pr-2">4.5</span>
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+
+        <div class="col-sm-8 color-white bg-black pt-4 px-5 pb-2">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="font-25 bl-red pl-3">Links</h2>
+
+              <div class="pl-3 pt-2">
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">About</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Career</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Contact Us</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Privacy</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Terms of Services</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Sitemap</a>
+                </h6>
+
+                <h6 class="font-14 pt-4">
+                  Copyright © 2020 Project42 Labs Private Limited. All Rights
+                  Reserved. All other trademarks, service marks, referenced in
+                  this site are the property of their respective owners.
+                </h6>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h2 class="font-25 bl-red pl-3 mt-md-0 mt-5">Contact Us</h2>
+
+              <div class="pl-3 pt-2">
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4"
+                    >A 45-50, 4th Floor, Pioneer House, Sector 16, Noida, India
+                  </a>
+                </h6>
+
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4">hello@project42labs.com</a>
+                </h6>
+
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4">+91 988 678 2956 Us</a>
+                </h6>
+
+                <h6 class="font-23 pt-5 pr-4 text-right">
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                  </a>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

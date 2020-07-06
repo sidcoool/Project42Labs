@@ -41,10 +41,21 @@ document.addEventListener("DOMContentLoaded", () => {
 function onScroll2() {
   document.getElementById('navBack').style.backgroundColor = 'white'
 
-  if(window.pageYOffset == 0){
+  if (window.pageYOffset == 0) {
     document.getElementById('navBack').style.boxShadow = 'none'
   }
   else {
     document.getElementById('navBack').style.boxShadow = '0px 4px 6px rgba(0, 0, 0, 0.15)'
+  }
+}
+
+
+function arrowToggle(e) {
+  
+  if (e.className.includes("down")) {
+    e.className = "fas fa-chevron-up font-23 color-red"
+  }
+  else {
+    e.className = "fas fa-chevron-down font-23 color-red"
   }
 }
