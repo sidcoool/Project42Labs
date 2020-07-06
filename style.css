@@ -172,6 +172,20 @@ body {
   color: #d04a4a;
 }
 
+.btn6 {
+  background: white;
+  padding: 10px;
+  border: 1px #d04a4a solid;
+  color: #d04a4a;
+}
+
+.btn6:hover {
+  background: #d04a4a;
+  padding: 10px;
+  border: 1px white solid;
+  color: white;
+}
+
 .d-color {
   text-decoration: none;
 }
@@ -518,3 +532,42 @@ body {
   /* padding: 20px; */
 }
 
+
+
+
+/* DS as Service Page CSS */
+
+.ds-banner {
+  background-image: url("./images/ds-banner.png");
+  min-height: 380px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+
+.box-design7 {
+  background: #ffffff;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 14px;
+  max-width: 300px;
+  margin-top: 80px;
+}
+
+
+.box-design8 {
+  background: #ffffff;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 15px;
+  max-width: 300px;
+  margin-top: 80px;
+  text-align: center;
+  margin: 50px 30px 10px 30px;
+}

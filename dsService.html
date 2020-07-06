@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js"></script>
+
+    <title>
+      Project42 Labs | Brilliant Data Science as a Service, Machine Learning as
+      a Service, Data Analytics, Data Scraping, Web Application Development,
+      Digital Marketing Services | Project42 Labs
+    </title>
+  </head>
+
+  <body onscroll="onScroll2()" ;>
+    <!-- Navbar Starts -->
+    <nav
+      id="navBack"
+      class="navbar navbar-expand-lg navbar-light pb-4 pt-3 sticky-top"
+      style="z-index: 9999;"
+    >
+      <a class="navbar-brand p-0 m-0" href="./index.html">
+        <img src="./images/logo1.png" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <!-- <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Services <span class="sr-only">(current)</span></a>
+                </li> -->
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Solutions
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="./work.html"
+              >Work <span class="sr-only">(current)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown active">
+            <a
+              class="nav-link dropdown-toggle bigger-text"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Company
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P42L</a>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto color-white mr-4">
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </li>
+
+          <li class="nav-item my-auto">
+            <a href="#!" class="d-color4 sChange">
+              <i class="fa fa-phone"></i>
+              <!-- <span class="font-16 pl-2">
+                            +91 988 678 2956
+                        </span> -->
+            </a>
+          </li>
+
+          <li class="nav-item active pl-3">
+            <button id="sChange" class="btn1">Contact Us</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Top Banner Section  -->
+    <div
+      class="container-fluid ds-banner color-white px-5 pt-md-4 py-md-0 py-4"
+    >
+      <div class="py-2 pt-3">
+        <a href="#!" class="d-color2">Services</a>
+        <span>>></span>
+        <a href="#!" class="d-color2">Data Science</a>
+      </div>
+      <div class="bl-red pl-4 mt-5">
+        <h1 class="font-35 p-2">Data Science as Service</h1>
+        <h2 class="font-25 pt-3 p-2" style="max-width: 420px;">
+          Innovative data analytics- the new competitive edge for your business
+        </h2>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="container-fluid p-5">
+      <div class="row">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">
+          Introduction
+        </h1>
+
+        <h4 class="font-18 color-black2 pl-4 pt-4">
+          Data is everywhere. Every brand generates a lot of data (every
+          consumer interaction, every lead generated, etc). Due to its
+          ubiquitous factor of production, data creates values in multiple ways
+          and is poised to become the fundamental parameter of any business led
+          decision. Data, undeniably generates significant financial value
+          across sectors. <br /><br />
+          We deliver cumulative benefits of your data and our domain experience
+          to: Data-Driven Decision Making, Achieve sustainable competitive-edge,
+          Efficiency and cost optimization, Research & Create New Revenue
+          Streams & Drive Growth and Metamorphosize data into insights and
+          insights into quantitative & qualitative actions. Our cloud-first
+          DSaaS enables you to scale your analytics capabilities without
+          deploying new resources, software or other overheads at your
+          organization. We build data models to fit your exact business
+          requirements, deploy them quickly.
+        </h4>
+      </div>
+    </div>
+
+    <!-- What can we do ? -->
+    <div class="container-fluid px-3 py-3">
+      <div class="row px-3 mx-1">
+        <h1 class="bolder font-30 bl-red pl-4 m-1">What can we do ?</h1>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="box-design8">
+          <img src="./images/text-mine.png" alt="" />
+          <h5 class="color-red pt-3">Texting Mine</h5>
+          <h6 class="color-black3 pt-3">
+            Bespoke Data Mining, NLP, Machine Learning (ML), Deep Learning (DL)
+            services to fit your business requirement. All services & models are
+            scalable as per your growing requirements.
+          </h6>
+        </div>
+
+        <div class="box-design8">
+          <img src="./images/data-lake.png" alt="" />
+          <h5 class="color-red pt-3">Data Lake</h5>
+          <h6 class="color-black3 pt-3">
+            Empower your Executives & Managers to make the most informed
+            decision with our bespoke & curated DIDM Service. Our models grow
+            with as per your business requirement.
+          </h6>
+        </div>
+
+        <div class="box-design8">
+          <img src="./images/physical-doc.png" alt="" />
+          <h5 class="color-red pt-3">Physical Document Digitization</h5>
+          <h6 class="color-black3 pt-3">
+            Go beyond your brand and establish comprehensive competitor’s market
+            position. We enable you to analyse entire landscape while keeping a
+            tab on the beat of market scenario.
+          </h6>
+        </div>
+
+        <div class="box-design8">
+          <img src="./images/social-analysis.png" alt="" />
+          <h5 class="color-red pt-3">Customer & Social Media Data Analysis</h5>
+          <h6 class="color-black3 pt-3">
+            Consultation services to optimise sales & revenue using your data.
+          </h6>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="box-design8">
+          <img src="./images/market-research.png" alt="" />
+          <h5 class="color-red pt-3">Market Research</h5>
+          <h6 class="color-black3 pt-3">
+            Integrate variable data streams into a cohesive data schema. We
+            provide services like Materialization, Data Virtualization, etc
+            saving you precious time & resources.
+          </h6>
+        </div>
+
+        <div class="box-design8">
+          <img src="./images/data-warehouse.png" alt="" />
+          <h5 class="color-red pt-3">Data Warehouse Analytics</h5>
+          <h6 class="color-black3 pt-3">
+            Reporting, Analytical Processing, Data Mining, Complex Event
+            Processing, Business Performance Management, Benchmarking, Text
+            Mining, Predictive & Prescriptive Analytics to meet your Enterprise
+            requirements.
+          </h6>
+        </div>
+
+        <div class="box-design8">
+          <img src="./images/data-visualisation.png" alt="" />
+          <h5 class="color-red pt-4">Data Visualisation & BI Reporting</h5>
+          <h6 class="color-black3 pt-3">
+            Tell stories effectively with your data. We create beautifully
+            detailed & interactive visualisations. We also work with
+            media-houses to create data stories.
+          </h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solutions Section -->
+    <div class="container-fluid">
+      <div class="row solution-border">
+        <div class="col-sm-4 bg-red color-white p-4">
+          <div class="bl-white pl-4 my-4 ml-2">
+            <h2 class="font-30 bolder">Solution</h2>
+            <h5 class="font-18 pt-3">
+              * Seven days trial period will be available
+            </h5>
+          </div>
+          <div class="fit-width ml-5 pt-4">
+            <img
+              class="img-fluid mt-5"
+              src="./images/bulb1.png"
+              style="opacity: 0.7;"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="col-sm-8">
+          <div class="row d-flex justify-content-around pb-4">
+            <a href="#!" class="d-color3">
+              <div class="box-design7">
+                <div>
+                  <img src="./images/machine-learning1.png" alt="" />
+                  <span class="font-20 pl-3">RPA</span>
+                </div>
+                <div class="pt-4">
+                  <h6 class="color-black2 mb-0">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    . Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor . Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor . Amet minim mollit non deserunt ullamco est
+                    sit aliqua dolor .
+                  </h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="#!" class="d-color3">
+              <div class="box-design7">
+                <div>
+                  <img src="./images/scrapping1.png" alt="" />
+                  <span class="font-20 pl-3">Scrapping</span>
+                </div>
+                <div class="pt-4">
+                  <h6 class="color-black2 mb-0">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    . Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor . Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor . Amet minim mollit non deserunt ullamco est
+                    sit aliqua dolor .
+                  </h6>
+                </div>
+              </div>
+            </a>
+
+            <a href="#!" class="d-color3">
+              <div class="box-design7">
+                <div>
+                  <img src="./images/data-science1.png" alt="" />
+                  <span class="font-20 pl-3">OCR</span>
+                </div>
+                <div class="pt-4">
+                  <h6 class="color-black2 mb-0">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    . Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor . Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor . Amet minim mollit non deserunt ullamco est
+                    sit aliqua dolor .
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Industries that can benefit from RPA -->
+    <div class="container-fluid bg-red color-white p-4 mt-4">
+      <div class="my-4 ml-2">
+        <h2 class="bl-white pl-3 p-2 font-30 bolder">
+          Industries that can benefit from RPA
+        </h2>
+        <h5 class="font-18 pl-3 pt-3">
+          RPA is employed in a wide assortment of industries to automate
+          conventional chores. Here are some of the RPA use cases:
+        </h5>
+      </div>
+
+      <div class="container-fluid text-center pt-5">
+        <div
+          class="row d-flex justify-content-md-between justify-content-around px-md-5"
+        >
+          <div class="industry-unit">
+            <img src="./images/rpa-bank.png" alt="" />
+            <h6 class="pt-4">Banking & Financial Services</h6>
+            <h6 class="font-14 line-30">
+              Loan processing, card activation, funds transfers, automation of
+              KYC processes, account closure, digital invoice software.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-logistics.png" alt="" />
+            <h6 class="pt-4">Logistics & Travel</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-hospital.png" alt="" />
+            <h6 class="pt-4">Healthcare</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-manufacture.png" alt="" />
+            <h6 class="pt-4">Manufacturing & Retail</h6>
+            <h6 class="font-14 line-30">
+              Supply chain & inventory management, supply planning, promotions,
+              calculation of sales, business invoice software
+            </h6>
+          </div>
+        </div>
+
+        <div
+          class="row d-flex justify-content-md-between justify-content-around px-md-5 pt-5"
+        >
+          <div class="industry-unit">
+            <img src="./images/rpa-bank.png" alt="" />
+            <h6 class="pt-4">Banking & Financial Services</h6>
+            <h6 class="font-14 line-30">
+              Loan processing, card activation, funds transfers, automation of
+              KYC processes, account closure, digital invoice software.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-logistics.png" alt="" />
+            <h6 class="pt-4">Logistics & Travel</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-hospital.png" alt="" />
+            <h6 class="pt-4">Healthcare</h6>
+            <h6 class="font-14 line-30">
+              Claims processing, ticket booking, accounting.
+            </h6>
+          </div>
+
+          <div class="industry-unit">
+            <img src="./images/rpa-manufacture.png" alt="" />
+            <h6 class="pt-4">Manufacturing & Retail</h6>
+            <h6 class="font-14 line-30">
+              Supply chain & inventory management, supply planning, promotions,
+              calculation of sales, business invoice software
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case Study Section -->
+    <div class="container-fluid p-5">
+      <h3 class="font-30 bolder bl-red pl-3">Case Study</h3>
+
+      <div id="demo" class="carousel slide mx-md-5" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-around">
+              <div class="card" style="width: 422px;">
+                <img
+                  class="card-img-top"
+                  src="./images/blog-img2.png"
+                  alt="Card image"
+                  style="width: 100%;"
+                />
+                <div class="card-body">
+                  <div class="bl-red">
+                    <h4 class="bolder font-20 pl-4 pt-1">
+                      AI across Industries
+                    </h4>
+                    <h6 class="font-14 pl-4 pt-1">
+                      <span class="bolder">By : </span>
+                      <span class="color-red">Surya Narayan Dev</span>
+                    </h6>
+                    <h6 class="font-14 pl-4 pt-1 color-black3">
+                      Fri May 29 2020
+                    </h6>
+                  </div>
+
+                  <h6 class="color-black3 pt-2">
+                    In the present decade, AI is changing our lives at a very
+                    fast rate. You agree with it or not, every day each one of
+                    us is using applications of AI in one way or another.
+                  </h6>
+                  <a href="./blog-post.html">
+                    <button class="btn1 mt-3">Read More</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card resHide" style="width: 422px;">
+                <img
+                  class="card-img-top"
+                  src="./images/blog-img2.png"
+                  alt="Card image"
+                  style="width: 100%;"
+                />
+                <div class="card-body">
+                  <div class="bl-red">
+                    <h4 class="bolder font-20 pl-4 pt-1">
+                      AI across Industries
+                    </h4>
+                    <h6 class="font-14 pl-4 pt-1">
+                      <span class="bolder">By : </span>
+                      <span class="color-red">Surya Narayan Dev</span>
+                    </h6>
+                    <h6 class="font-14 pl-4 pt-1 color-black3">
+                      Fri May 29 2020
+                    </h6>
+                  </div>
+
+                  <h6 class="color-black3 pt-2">
+                    In the present decade, AI is changing our lives at a very
+                    fast rate. You agree with it or not, every day each one of
+                    us is using applications of AI in one way or another.
+                  </h6>
+                  <a href="./blog-post.html">
+                    <button class="btn1 mt-3">Read More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-around">
+              <div class="card resHide" style="width: 422px;">
+                <img
+                  class="card-img-top"
+                  src="./images/blog-img2.png"
+                  alt="Card image"
+                  style="width: 100%;"
+                />
+                <div class="card-body">
+                  <div class="bl-red">
+                    <h4 class="bolder font-20 pl-4 pt-1">
+                      AI across Industries
+                    </h4>
+                    <h6 class="font-14 pl-4 pt-1">
+                      <span class="bolder">By : </span>
+                      <span class="color-red">Surya Narayan Dev</span>
+                    </h6>
+                    <h6 class="font-14 pl-4 pt-1 color-black3">
+                      Fri May 29 2020
+                    </h6>
+                  </div>
+
+                  <h6 class="color-black3 pt-2">
+                    In the present decade, AI is changing our lives at a very
+                    fast rate. You agree with it or not, every day each one of
+                    us is using applications of AI in one way or another.
+                  </h6>
+                  <a href="./blog-post.html">
+                    <button class="btn1 mt-3">Read More</button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 422px;">
+                <img
+                  class="card-img-top"
+                  src="./images/blog-img2.png"
+                  alt="Card image"
+                  style="width: 100%;"
+                />
+                <div class="card-body">
+                  <div class="bl-red">
+                    <h4 class="bolder font-20 pl-4 pt-1">
+                      AI across Industries
+                    </h4>
+                    <h6 class="font-14 pl-4 pt-1">
+                      <span class="bolder">By : </span>
+                      <span class="color-red">Surya Narayan Dev</span>
+                    </h6>
+                    <h6 class="font-14 pl-4 pt-1 color-black3">
+                      Fri May 29 2020
+                    </h6>
+                  </div>
+
+                  <h6 class="color-black3 pt-2">
+                    In the present decade, AI is changing our lives at a very
+                    fast rate. You agree with it or not, every day each one of
+                    us is using applications of AI in one way or another.
+                  </h6>
+                  <a href="./blog-post.html">
+                    <button class="btn1 mt-3">Read More</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a
+          class="carousel-control-prev car-l resDis"
+          href="#demo"
+          data-slide="prev"
+        >
+          <img src="./images/car-left.png" alt="" />
+        </a>
+
+        <a
+          class="carousel-control-next car-r resDis"
+          href="#demo"
+          data-slide="next"
+        >
+          <img src="./images/car-right.png" alt="" />
+        </a>
+      </div>
+    </div>
+
+
+    <!-- Onboard Section -->
+    <div class="container bg-red px-5 py-4 mb-5 mt-4" style="max-width: 900px;">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3 class="bl-white color-white font-25 pl-3 p-2">Onboarding & Best practices</h3>
+                <h3 class="color-white font-18 pl-3 p-2">Click here to know more about our journey</h3>
+                <button class="btn6 m-4">Know More</button>
+            </div>
+
+            <div class="col-sm-4">
+                <img src="./images/onboard.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer-border">
+      <div class="row">
+        <div class="col-sm-4 pt-3 pb-2">
+          <div class="px-2">
+            <img src="./images/logo3.png" alt="" />
+          </div>
+
+          <div class="px-5 py-4">
+            <h4 class="font-18">
+              Keeping Technology Simple
+            </h4>
+
+            <h6 class="color-black2 pt-4">
+              We are an ideas-oriented, focussed & a driven brand, creating a
+              culture of tech inclusion for every dream
+            </h6>
+          </div>
+
+          <div class="px-5">
+            <img src="./images/clutch1.png" alt="" />
+
+            <img class="ml-5" src="./images/c1.png" alt="" />
+            <span class="bolder pl-3 pr-2">4.5</span>
+
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+
+        <div class="col-sm-8 color-white bg-black pt-4 px-5 pb-2">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="font-25 bl-red pl-3">Links</h2>
+
+              <div class="pl-3 pt-2">
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">About</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Career</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Contact Us</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Privacy</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Terms of Services</a>
+                </h6>
+
+                <h6 class="pt-2">
+                  <a href="#!" class="d-color2">Sitemap</a>
+                </h6>
+
+                <h6 class="font-14 pt-4">
+                  Copyright © 2020 Project42 Labs Private Limited. All Rights
+                  Reserved. All other trademarks, service marks, referenced in
+                  this site are the property of their respective owners.
+                </h6>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <h2 class="font-25 bl-red pl-3 mt-md-0 mt-5">Contact Us</h2>
+
+              <div class="pl-3 pt-2">
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4"
+                    >A 45-50, 4th Floor, Pioneer House, Sector 16, Noida, India
+                  </a>
+                </h6>
+
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4">hello@project42labs.com</a>
+                </h6>
+
+                <h6 class="pt-4 pb-1 d-flex">
+                  <div class="font-20">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                  </div>
+
+                  <a href="#!" class="d-color2 pl-4">+91 988 678 2956 Us</a>
+                </h6>
+
+                <h6 class="font-23 pt-5 pr-4 text-right">
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+
+                  <a href="#!" class="d-color3 px-3">
+                    <i class="fa fa-skype" aria-hidden="true"></i>
+                  </a>
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
