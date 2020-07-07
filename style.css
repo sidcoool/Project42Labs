@@ -585,3 +585,17 @@ body {
   text-align: center;
   margin: 50px 30px 10px 30px;
 }
+
+
+
+/* Careers Page CSS */
+
+
+.careers-banner {
+  background-image: url("./images/careers-banner.png");
+  min-height: 337px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
