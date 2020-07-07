@@ -383,11 +383,16 @@ body {
 }
 
 .work-page-head {
-  margin: 10px 15px;
+  margin: 10px 0px;
   padding: 5px 20px !important;
   cursor: pointer;
   height: fit-content !important;
 }
+
+.work-page-bar {
+  width: 80%;
+}
+
 
 .work-page-bar > .active {
   border: black 1px solid;
