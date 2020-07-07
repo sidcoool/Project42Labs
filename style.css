@@ -590,7 +590,6 @@ body {
 
 /* Careers Page CSS */
 
-
 .careers-banner {
   background-image: url("./images/careers-banner.png");
   min-height: 337px;
@@ -613,6 +612,18 @@ body {
   padding: 25px 35px;
   width: 625px;
   margin-bottom: 80px;
-  /* text-align: center; */
-  /* margin: 50px 30px 10px 30px; */
 }
+
+
+
+/* About Us Page CSS */
+
+.aboutus-banner {
+  background-image: url("./images/aboutus-banner.png");
+  min-height: 337px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
