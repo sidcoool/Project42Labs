@@ -603,3 +603,16 @@ body {
 .line-25 {
   line-height: 25px;
 }
+
+.box-design9 {
+  background: #ffffff;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 25px 35px;
+  width: 625px;
+  margin-bottom: 80px;
+  /* text-align: center; */
+  /* margin: 50px 30px 10px 30px; */
+}
