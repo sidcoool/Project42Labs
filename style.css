@@ -423,8 +423,17 @@ body {
   max-height: 450px;
 }
 
+
+.caseHeight2 {
+  max-height: 420px;
+}
+
 @media (max-width: 576px) {
   .caseHeight {
+    max-height: 270px;
+  }
+
+  .caseHeight2 {
     max-height: 270px;
   }
 }
