@@ -94,6 +94,46 @@ body {
   font-size: 35px;
 }
 
+
+@media (max-width: 576px) {
+  .font-sm-12 {
+    font-size: 12px;
+  }
+  
+  .font-sm-14 {
+    font-size: 14px;
+  }
+  
+  .font-sm-16 {
+    font-size: 14px;
+  }
+  
+  .font-sm-18 {
+    font-size: 14px;
+  }
+  
+  .font-sm-20 {
+    font-size: 14px;
+  }
+  
+  .font-sm-23 {
+    font-size: 23px;
+  }
+  
+  .font-sm-25 {
+    font-size: 25px;
+  }
+  
+  .font-sm-30 {
+    font-size: 16px;
+  }
+  
+  .font-sm-35 {
+    font-size: 35px;
+  }
+}
+
+
 .color-red {
   color: #d04a4a;
 }
