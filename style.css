@@ -124,6 +124,10 @@ body {
   .font-sm-25 {
     font-size: 25px;
   }
+
+  .resLogo {
+    width: 90px;
+  }
   
 }
 
@@ -174,6 +178,18 @@ body {
   bottom: 170px;
   width: 500px;
 }
+
+
+.red-shape2 {
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  top: 70px;
+  width: 150px;
+  /* bottom: 170px; */
+  /* width: 500px; */
+}
+
 
 .nav-design1 {
   /* position: absolute; */
@@ -332,20 +348,20 @@ body {
 }
 
 .bl-red {
-  border-left: #d04a4a 2px solid;
+  border-left: #d04a4a 3px solid;
 }
 
 
 .br-red {
-  border-right: #d04a4a 2px solid;
+  border-right: #d04a4a 3px solid;
 }
 
 .bl-white {
-  border-left: white 2px solid;
+  border-left: white 3px solid;
 }
 
 .b-red {
-  border: #d04a4a 2px solid;
+  border: #d04a4a 3px solid;
 }
 
 .bolder {
@@ -436,6 +452,11 @@ body {
   .resHide {
     display: none;
   }
+
+  .resShow {
+    display: block;
+  }
+
   .car-l {
     opacity: 0 !important;
     padding-right: 0px;
@@ -444,6 +465,13 @@ body {
     opacity: 0 !important;
     padding-left: 0px;
   }
+}
+
+@media (min-width: 576px) {
+  .resHide2 {
+    display: none;
+  }
+  
 }
 
 .dropdown-toggle:after {
