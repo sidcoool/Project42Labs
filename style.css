@@ -597,8 +597,8 @@ body {
 /* Blog Page CSS */
 
 .blog-banner {
-  background-image: url("./images/blog-banner1.png");
-  min-height: 380px;
+  background-image: url("./images/blog-banner.png");
+  height: 380px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -619,11 +619,27 @@ body {
   margin-top: 50px;
 }
 
+.resDiv5 {
+  width: 420px;
+}
+
+@media (max-width: 576px) {
+  .blog-banner {
+    height: 180px;
+  }
+
+  .resDiv5 {
+    width: 110px;
+  }
+
+}
+
+
 /* Blog Post CSS */
 
 .blogpost-back {
   background-image: url("./images/blogPost-banner.png");
-  min-height: 450px;
+  height: 450px;
 }
 
 .blogpost-nav {
@@ -656,6 +672,12 @@ body {
 .blogpost-banner-border {
   border-top: black 1px solid;
   border-bottom: black 1px solid;
+}
+
+@media (max-width: 576px) {
+  .blogpost-back {
+    height: 300px;
+  }
 }
 
 /* Solutions (RPA) Page CSS */
