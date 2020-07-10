@@ -1,941 +1,713 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
 
-    <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <script src="script.js"></script>
+  <!-- Custom Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
 
-    <title>
-      Project42 Labs | Brilliant Data Science as a Service, Machine Learning as
-      a Service, Data Analytics, Data Scraping, Web Application Development,
-      Digital Marketing Services | Project42 Labs
-    </title>
-  </head>
+  <script src="script.js"></script>
 
-  <body onscroll="bodyScroll()">
-    <!-- Navbar Starts -->
-    <nav
-      id="navBack"
-      class="navbar navbar-expand-lg navbar-light pb-md-4 pb-2 pt-md-3 pt-2  sticky-top"
-      style="z-index: 9999;"
-    >
-      <a class="navbar-brand pl-md-2" href="./index.html">
-        <img
-          class="ml-4 mt-2 resLogo"
-          src="./images/final_logo.png"
-          alt=""
-          width="115px"
-        />
-      </a>
-      <button class="navbar-toggler" type="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <title>
+    Project42 Labs | Brilliant Data Science as a Service, Machine Learning as
+    a Service, Data Analytics, Data Scraping, Web Application Development,
+    Digital Marketing Services | Project42 Labs
+  </title>
+</head>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item active">
+<body onscroll="bodyScroll()">
+  <!-- Navbar Starts -->
+  <nav id="navBack" class="navbar navbar-expand-lg navbar-light pb-md-4 pb-2 pt-md-3 pt-2  sticky-top"
+    style="z-index: 9999;">
+    <a class="navbar-brand pl-md-2" href="./index.html">
+      <img class="ml-4 mt-2 resLogo" src="./images/final_logo.png" alt="" width="115px" />
+    </a>
+    <button class="navbar-toggler" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <!-- <li class="nav-item active">
                     <a class="nav-link" href="./index.html">Services <span class="sr-only">(current)</span></a>
                 </li> -->
 
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle bigger-text"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle bigger-text" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle bigger-text" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Solutions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+          </div>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="./work.html">Work <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle bigger-text" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Company
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+            <a class="dropdown-item" href="#">P42L</a>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav ml-auto color-white mr-4">
+        <li class="nav-item my-auto">
+          <a target="_blank" href="https://www.facebook.com/hellop42l/" class="d-color1 sChange">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+
+        <li class="nav-item my-auto">
+          <a target="_blank" href="https://www.linkedin.com/company/project-42-labs/" class="d-color1 sChange">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+
+        <li class="nav-item my-auto">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=919886782956" class="d-color1 sChange">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+        </li>
+
+        <li class="nav-item my-auto">
+          <a target="_blank" href="tel:919886782956" class="d-color1 sChange">
+            <i class="fa fa-phone"></i>
+          </a>
+        </li>
+
+        <li class="nav-item active pl-3">
+          <button id="sChange" class="btn2">Contact Us</button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal1">
+      <!-- Modal content -->
+      <div class="modal-content1">
+        <span class="close1 pr-3">&times;</span>
+        <div class="modal-content1-inner">
+          <div class="pt-4">
+            <a class="nav-link dropdown-toggle d-color2 bl-red" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Services
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu">
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
             </div>
-          </li>
+          </div>
 
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle bigger-text"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+          <div class="pt-4">
+            <a class="nav-link dropdown-toggle d-color2" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Solutions
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P4L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
             </div>
-          </li>
+          </div>
 
-          <li class="nav-item active">
-            <a class="nav-link" href="./work.html"
-              >Work <span class="sr-only">(current)</span></a
-            >
-          </li>
+          <div class="pt-4">
+            <a class="nav-link d-color2" href="./work.html">Work <span class="sr-only">(current)</span></a>
+          </div>
 
-          <li class="nav-item dropdown active">
-            <a
-              class="nav-link dropdown-toggle bigger-text"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
+          <div class="pt-4">
+            <a class="nav-link dropdown-toggle d-color2" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Company
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">P42L</a>
+              <a class="dropdown-item" href="#">P4L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
               <a class="dropdown-item" href="#">P42L</a>
             </div>
-          </li>
-        </ul>
+          </div>
 
-        <ul class="navbar-nav ml-auto color-white mr-4">
-          <li class="nav-item my-auto">
-            <a
-              target="_blank"
-              href="https://www.facebook.com/hellop42l/"
-              class="d-color1 sChange"
-            >
+          <button class="btn1 m-2 mt-5">Contact Us</button>
+
+          <div class="d-flex justify-content-around pt-4">
+            <a target="_blank" href="https://www.facebook.com/hellop42l/" class="d-color1">
               <i class="fa fa-facebook"></i>
             </a>
-          </li>
 
-          <li class="nav-item my-auto">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/project-42-labs/"
-              class="d-color1 sChange"
-            >
-              <i class="fab fa-linkedin-in"></i>
+            <a target="_blank" href="https://www.linkedin.com/company/project-42-labs/" class="d-color1">
+              <i class="fa fa-linkedin-in"></i>
             </a>
-          </li>
 
-          <li class="nav-item my-auto">
-            <a
-              target="_blank"
-              href="https://api.whatsapp.com/send?phone=919886782956"
-              class="d-color1 sChange"
-            >
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=919886782956" class="d-color1">
               <i class="fa fa-whatsapp"></i>
             </a>
-          </li>
+          </div>
 
-          <li class="nav-item my-auto">
-            <a target="_blank" href="tel:919886782956" class="d-color1 sChange">
+          <div class="d-flex justify-content-center pt-2">
+            <a target="_blank" href="tel:919886782956" class="d-color1">
               <i class="fa fa-phone"></i>
-            </a>
-          </li>
-
-          <li class="nav-item active pl-3">
-            <button id="sChange" class="btn2">Contact Us</button>
-          </li>
-        </ul>
-      </div>
-
-      <!-- The Modal -->
-      <div id="myModal" class="modal1">
-        <!-- Modal content -->
-        <div class="modal-content1">
-          <span class="close1 pr-3">&times;</span>
-          <div class="modal-content1-inner">
-            <div class="pt-4">
-              <a
-                class="nav-link dropdown-toggle d-color2 bl-red"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-              </div>
-            </div>
-
-            <div class="pt-4">
-              <a
-                class="nav-link dropdown-toggle d-color2"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Solutions
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">P4L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-              </div>
-            </div>
-
-            <div class="pt-4">
-              <a class="nav-link d-color2" href="./work.html"
-                >Work <span class="sr-only">(current)</span></a
-              >
-            </div>
-
-            <div class="pt-4">
-              <a
-                class="nav-link dropdown-toggle d-color2"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Company
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">P4L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-                <a class="dropdown-item" href="#">P42L</a>
-              </div>
-            </div>
-
-            <button class="btn1 m-2 mt-5">Contact Us</button>
-
-            <div class="d-flex justify-content-around pt-4">
-              <a
-                target="_blank"
-                href="https://www.facebook.com/hellop42l/"
-                class="d-color1"
-              >
-                <i class="fa fa-facebook"></i>
-              </a>
-
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/company/project-42-labs/"
-                class="d-color1"
-              >
-                <i class="fa fa-linkedin-in"></i>
-              </a>
-
-              <a
-                target="_blank"
-                href="https://api.whatsapp.com/send?phone=919886782956"
-                class="d-color1"
-              >
-                <i class="fa fa-whatsapp"></i>
-              </a>
-            </div>
-
-            <div class="d-flex justify-content-center pt-2">
-              <a target="_blank" href="tel:919886782956" class="d-color1">
-                <i class="fa fa-phone"></i>
-                <span class="font-16 pl-2">
-                  +91 988 678 2956
-                </span>
-              </a>
-            </div>
-
-            <div class="d-flex justify-content-center pt-2">
-              <img src="./images/clutch2.png" alt="" width="100" />
-            </div>
-          </div>
-
-          <img
-            src="./images/mobile-red-shape1.png"
-            alt=""
-            class="nav-red-shape"
-          />
-        </div>
-      </div>
-    </nav>
-
-    <!-- Award Winning Section -->
-    <div class="container-fluid pt-md-5 px-5 resHide">
-      <div class="row">
-        <div class="col-5 pt-5 px-0">
-          <h1 class="bolder font-30 font-sm-16 bl-red pl-4">
-            Award-Winning Global Data & AI Focussed SaaS Startup
-          </h1>
-
-          <h4 class="font-20 color-black2 pl-4 pt-4">
-            We brew the best concoction of AI based technologies and creative
-            capabilities for the business impact you desire
-          </h4>
-        </div>
-
-        <div
-          class="col-7 pt-md-0 pt-5 d-flex justify-content-center"
-          style="z-index: 10;"
-        >
-          <img class="red-shape resHide" src="./images/bg_shape_2.png" alt="" />
-          <img
-            class="img-fluid"
-            style="z-index: 10;"
-            src="./images/design1.png"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- Award Winning Section Mobile View-->
-    <div class="container-fluid resHide2 py-4">
-      <div class="d-flex">
-        <div>
-          <h1 class="bolder font-sm-16 bl-red pl-2 line-25">
-            Award-Winning Global Data & AI Focussed SaaS Startup
-          </h1>
-
-          <h4 class="font-sm-14 color-black2 pl-3 pt-1 mb-0">
-            We brew the best concoction of AI based   
-          </h4>
-        </div>
-
-        <img class="red-shape2" src="./images/background-shape3.png" alt="" />
-        <img
-          style="z-index: 10; width: 45%; height: 45%;"
-          src="./images/design1.png"
-          alt=""
-        />
-      </div>
-
-      <h4 class="font-20 font-sm-14 color-black2 pl-3">
-        and creative capabilities for the business impact you desire
-      </h4>
-
-    </div>
-
-    <!-- Services Section -->
-    <div class="container-fluid px-md-4 px-3 pb-4">
-      <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 m-1">
-        Services
-      </h1>
-
-      <div class="row pt-4 pl-4 d-flex justify-content-around pb-4">
-        <a href="#!" class="d-color3">
-          <div class="box-design1">
-            <img src="./images/web-development1.png" alt="" />
-            <span class="font-20 font-sm-14 pl-3">
-              Web Development
-            </span>
-          </div>
-        </a>
-
-        <a href="#!" class="d-color3">
-          <div class="box-design1">
-            <img src="./images/data-science1.png" alt="" />
-            <span class="font-20 font-sm-14 pl-3">
-              Data Science
-            </span>
-          </div>
-        </a>
-
-        <a href="#!" class="d-color3">
-          <div class="box-design1">
-            <img src="./images/machine-learning1.png" alt="" />
-            <span class="font-20 font-sm-14 pl-3">
-              Machine Learning
-            </span>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <!-- Solutions Section -->
-    <div class="container-fluid">
-      <div class="row solution-border">
-        <div class="col-sm-5 bg-red color-white p-md-4 p-2 d-flex d-md-block">
-          <div class="bl-white pl-md-4 pl-3 my-4 ml-2">
-            <h2 class="font-30 font-sm-18 bolder">Solution</h2>
-            <h5 class="font-18 font-sm-14 pt-3">
-              * Seven days trial period will be available
-            </h5>
-          </div>
-          <div class="fit-width ml-md-auto pt-md-5 pt-3 resImg2">
-            <img
-              class="img-fluid mt-md-5"
-              src="./images/bulb1.png"
-              style="opacity: 0.7;"
-              alt=""
-                />
-          </div>
-        </div>
-
-        <div class="col-sm-7">
-          <div class="row d-flex justify-content-around pb-4 px-5">
-            <a href="#!" class="d-color3">
-              <div class="box-design2">
-                <div>
-                  <img src="./images/machine-learning1.png" alt="" />
-                  <span class="font-20 font-sm-16 pl-3">RPA</span>
-                </div>
-                <div class="pt-md-4 pt-2">
-                  <h6 class="color-black2 font-sm-14 mb-0">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                  </h6>
-                </div>
-              </div>
-            </a>
-
-            <a href="#!" class="d-color3">
-              <div class="box-design2">
-                <div>
-                  <img src="./images/scrapping1.png" alt="" />
-                  <span class="font-20 font-sm-16 pl-3">Scrapping</span>
-                </div>
-                <div class="pt-md-4 pt-2">
-                  <h6 class="color-black2 font-sm-14 mb-0">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                  </h6>
-                </div>
-              </div>
-            </a>
-
-            <a href="#!" class="d-color3">
-              <div class="box-design2">
-                <div>
-                  <img src="./images/data-science1.png" alt="" />
-                  <span class="font-20 font-sm-16 pl-3">OCR</span>
-                </div>
-                <div class="pt-md-4 pt-2">
-                  <h6 class="color-black2 font-sm-14 mb-0">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                  </h6>
-                </div>
-              </div>
+              <span class="font-16 pl-2">
+                +91 988 678 2956
+              </span>
             </a>
           </div>
+
+          <div class="d-flex justify-content-center pt-2">
+            <img src="./images/clutch2.png" alt="" width="100" />
+          </div>
         </div>
+
+        <img src="./images/mobile-red-shape1.png" alt="" class="nav-red-shape" />
       </div>
     </div>
+  </nav>
 
-    <!-- Our Approach Section -->
-    <div class="container-fluid p-md-5 p-4">
-      <div class="row">
-        <h1 class="bolder font-30 font-sm-18 bl-red py-1 pl-md-4 pl-2 m-1">
-          Our Approach
+  <!-- Award Winning Section -->
+  <div class="container-fluid pt-md-5 px-5 resHide">
+    <div class="row">
+      <div class="col-5 pt-5 px-0">
+        <h1 class="bolder font-30 font-sm-16 bl-red pl-4">
+          Award-Winning Global Data & AI Focussed SaaS Startup
         </h1>
 
-        <h4 class="font-20 font-sm-14 color-black2 pl-4 pt-md-4 pt-2">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
-          ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-          duis enim velit mollit.
+        <h4 class="font-20 color-black2 pl-4 pt-4">
+          We brew the best concoction of AI based technologies and creative
+          capabilities for the business impact you desire
         </h4>
       </div>
-    </div>
 
-    <!-- Our Clients Section -->
-    <div class="container-fluid pb-3">
-      <div class="pt-0">
-        <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 mx-md-4 mx-1">
-          Our Clients
+      <div class="col-7 pt-md-0 pt-5 d-flex justify-content-center" style="z-index: 10;">
+        <img class="red-shape resHide" src="./images/bg_shape_2.png" alt="" />
+        <img class="img-fluid" style="z-index: 10;" src="./images/design1.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Award Winning Section Mobile View-->
+  <div class="container-fluid resHide2 py-4">
+    <div class="d-flex">
+      <div>
+        <h1 class="bolder font-sm-16 bl-red pl-2 line-25">
+          Award-Winning Global Data & AI Focussed SaaS Startup
         </h1>
 
-        <div id="demo1" class="carousel slide p-md-5 p-4" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row d-flex justify-content-around">
-                <img
-                  class="img-fluid2"
-                  src="./images/cinnamon.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/impactify.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/ml.png"
-                  alt="Los Angeles"
-                />
+        <h4 class="font-sm-14 color-black2 pl-3 pt-1 mb-0">
+          We brew the best concoction of AI based
+        </h4>
+      </div>
+
+      <img class="red-shape2" src="./images/background-shape3.png" alt="" />
+      <img style="z-index: 10; width: 45%; height: 45%;" src="./images/design1.png" alt="" />
+    </div>
+
+    <h4 class="font-20 font-sm-14 color-black2 pl-3">
+      and creative capabilities for the business impact you desire
+    </h4>
+
+  </div>
+
+  <!-- Services Section -->
+  <div class="container-fluid px-md-4 px-3 pb-4">
+    <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 m-1">
+      Services
+    </h1>
+
+    <div class="row pt-4 pl-4 d-flex justify-content-around pb-4">
+      <a href="#!" class="d-color3">
+        <div class="box-design1">
+          <img src="./images/web-development1.png" alt="" />
+          <span class="font-20 font-sm-14 pl-3">
+            Web Development
+          </span>
+        </div>
+      </a>
+
+      <a href="#!" class="d-color3">
+        <div class="box-design1">
+          <img src="./images/data-science1.png" alt="" />
+          <span class="font-20 font-sm-14 pl-3">
+            Data Science
+          </span>
+        </div>
+      </a>
+
+      <a href="#!" class="d-color3">
+        <div class="box-design1">
+          <img src="./images/machine-learning1.png" alt="" />
+          <span class="font-20 font-sm-14 pl-3">
+            Machine Learning
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Solutions Section -->
+  <div class="container-fluid">
+    <div class="row solution-border">
+      <div class="col-sm-5 bg-red color-white p-md-4 p-2 d-flex d-md-block">
+        <div class="bl-white pl-md-4 pl-3 my-4 ml-2">
+          <h2 class="font-30 font-sm-18 bolder">Solution</h2>
+          <h5 class="font-18 font-sm-14 pt-3">
+            * Seven days trial period will be available
+          </h5>
+        </div>
+        <div class="fit-width ml-md-auto pt-md-5 pt-3 resImg2">
+          <img class="img-fluid mt-md-5" src="./images/bulb1.png" style="opacity: 0.7;" alt="" />
+        </div>
+      </div>
+
+      <div class="col-sm-7">
+        <div class="row d-flex justify-content-around pb-4 px-5">
+          <a href="#!" class="d-color3">
+            <div class="box-design2">
+              <div>
+                <img src="./images/machine-learning1.png" alt="" />
+                <span class="font-20 font-sm-16 pl-3">RPA</span>
+              </div>
+              <div class="pt-md-4 pt-2">
+                <h6 class="color-black2 font-sm-14 mb-0">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                </h6>
               </div>
             </div>
+          </a>
 
-            <div class="carousel-item">
-              <div class="row d-flex justify-content-around">
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/cinnamon.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="img-fluid2"
-                  src="./images/impactify.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/ml.png"
-                  alt="Los Angeles"
-                />
+          <a href="#!" class="d-color3">
+            <div class="box-design2">
+              <div>
+                <img src="./images/scrapping1.png" alt="" />
+                <span class="font-20 font-sm-16 pl-3">Scrapping</span>
+              </div>
+              <div class="pt-md-4 pt-2">
+                <h6 class="color-black2 font-sm-14 mb-0">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                </h6>
               </div>
             </div>
+          </a>
 
-            <div class="carousel-item resHide">
-              <div class="row d-flex justify-content-around">
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/cinnamon.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="resHide img-fluid2"
-                  src="./images/impactify.png"
-                  alt="Los Angeles"
-                />
-                <img
-                  class="img-fluid2"
-                  src="./images/ml.png"
-                  alt="Los Angeles"
-                />
+          <a href="#!" class="d-color3">
+            <div class="box-design2">
+              <div>
+                <img src="./images/data-science1.png" alt="" />
+                <span class="font-20 font-sm-16 pl-3">OCR</span>
+              </div>
+              <div class="pt-md-4 pt-2">
+                <h6 class="color-black2 font-sm-14 mb-0">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                </h6>
               </div>
             </div>
-
-            <!-- Left and right controls -->
-            <a
-              class="carousel-control-prev car-l resDis"
-              href="#demo1"
-              data-slide="prev"
-            >
-              <img src="./images/car-left.png" alt="" />
-            </a>
-
-            <a
-              class="carousel-control-next car-r resDis"
-              href="#demo1"
-              data-slide="next"
-            >
-              <img src="./images/car-right.png" alt="" />
-            </a>
-          </div>
+          </a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- What Clients Our Say Section -->
-    <div class="container-fluid">
-      <div class="pt-0">
-        <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 mx-md-4 mx-1">
-          What our client say
-        </h1>
+  <!-- Our Approach Section -->
+  <div class="container-fluid p-md-5 p-4">
+    <div class="row">
+      <h1 class="bolder font-30 font-sm-18 bl-red py-1 pl-md-4 pl-2 m-1">
+        Our Approach
+      </h1>
 
-        <div
-          id="demo2"
-          class="carousel slide py-md-5 px-md-5 py-md-5 py-4 px-0"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-flex justify-content-around">
-                <div class="box-design3 mr-5">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h4 class="font-20 bolder">
-                        Ahmed
-                      </h4>
-                      <h6 class="color-black">
-                        Founder, ABC Organisation
-                      </h6>
-                    </div>
+      <h4 class="font-20 font-sm-14 color-black2 pl-4 pt-md-4 pt-2">
+        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+        sint. Velit officia consequat duis enim velit mollit. Exercitation
+        veniam consequat sunt nostrud amet. Amet minim mollit non deserunt
+        ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+        duis enim velit mollit.
+      </h4>
+    </div>
+  </div>
 
-                    <div class="b-red px-4 ml-5">
-                      <div class="pt-3">
-                        <span>Linkedin</span>
-                        <img
-                          class="pl-3 pb-1"
-                          src="./images/linked-in.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
+  <!-- Our Clients Section -->
+  <div class="container-fluid pb-3">
+    <div class="pt-0">
+      <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 mx-md-4 mx-1">
+        Our Clients
+      </h1>
 
-                  <div class="pt-4">
-                    <h6 class="color-black2">
-                      “Velit pariatur qui culpa ullamco incididunt ipsum
-                      cupidatat non est esse do et non do. Nulla anim incididunt
-                      tempor tempor Lorem. Incididunt nostrud et cillum cillum
-                      ipsum in. Aliqua magna esse proident ex culpa nulla aute
-                      aliquip.“
-                    </h6>
-                  </div>
-                </div>
-
-                <div class="box-design3 ml-5 resHide">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h4 class="font-20 bolder">
-                        Ahmed
-                      </h4>
-                      <h6 class="color-black">
-                        Founder, ABC Organisation
-                      </h6>
-                    </div>
-
-                    <div class="b-red px-4 ml-5">
-                      <div class="pt-3">
-                        <span>Linkedin</span>
-                        <img
-                          class="pl-3 pb-1"
-                          src="./images/linked-in.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="pt-4">
-                    <h6 class="color-black2">
-                      “Reprehenderit labore sunt do tempor aliqua elit ea
-                      reprehenderit non minim enim culpa sint. Exercitation
-                      labore nulla non et officia adipisicing. Quis deserunt ut
-                      anim mollit irure officia officia anim ea ipsum tempor
-                      deserunt minim.“
-                    </h6>
-                  </div>
-                </div>
-              </div>
+      <div id="demo1" class="carousel slide p-md-5 p-4" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row d-flex justify-content-around">
+              <img class="img-fluid2" src="./images/cinnamon.png" alt="Los Angeles" />
+              <img class="resHide img-fluid2" src="./images/impactify.png" alt="Los Angeles" />
+              <img class="resHide img-fluid2" src="./images/ml.png" alt="Los Angeles" />
             </div>
-
-            <div class="carousel-item">
-              <div class="d-flex justify-content-around">
-                <div class="box-design3 mr-5 resHide">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h4 class="font-20 bolder">
-                        Ahmed
-                      </h4>
-                      <h6 class="color-black">
-                        Founder, ABC Organisation
-                      </h6>
-                    </div>
-
-                    <div class="b-red px-4 ml-5">
-                      <div class="pt-3">
-                        <span>Linkedin</span>
-                        <img
-                          class="pl-3 pb-1"
-                          src="./images/linked-in.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="pt-4">
-                    <h6 class="color-black2">
-                      “Velit pariatur qui culpa ullamco incididunt ipsum
-                      cupidatat non est esse do et non do. Nulla anim incididunt
-                      tempor tempor Lorem. Incididunt nostrud et cillum cillum
-                      ipsum in. Aliqua magna esse proident ex culpa nulla aute
-                      aliquip.“
-                    </h6>
-                  </div>
-                </div>
-
-                <div class="box-design3 ml-5">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h4 class="font-20 bolder">
-                        Ahmed
-                      </h4>
-                      <h6 class="color-black">
-                        Founder, ABC Organisation
-                      </h6>
-                    </div>
-
-                    <div class="b-red px-4 ml-5">
-                      <div class="pt-3">
-                        <span>Linkedin</span>
-                        <img
-                          class="pl-3 pb-1"
-                          src="./images/linked-in.png"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="pt-4">
-                    <h6 class="color-black2">
-                      “Reprehenderit labore sunt do tempor aliqua elit ea
-                      reprehenderit non minim enim culpa sint. Exercitation
-                      labore nulla non et officia adipisicing. Quis deserunt ut
-                      anim mollit irure officia officia anim ea ipsum tempor
-                      deserunt minim.“
-                    </h6>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a
-              class="carousel-control-prev car-l resDis"
-              href="#demo2"
-              data-slide="prev"
-            >
-              <img src="./images/car-left.png" alt="" />
-            </a>
-
-            <a
-              class="carousel-control-next car-r resDis"
-              href="#demo2"
-              data-slide="next"
-            >
-              <img src="./images/car-right.png" alt="" />
-            </a>
           </div>
+
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-around">
+              <img class="resHide img-fluid2" src="./images/cinnamon.png" alt="Los Angeles" />
+              <img class="img-fluid2" src="./images/impactify.png" alt="Los Angeles" />
+              <img class="resHide img-fluid2" src="./images/ml.png" alt="Los Angeles" />
+            </div>
+          </div>
+
+          <div class="carousel-item resHide">
+            <div class="row d-flex justify-content-around">
+              <img class="resHide img-fluid2" src="./images/cinnamon.png" alt="Los Angeles" />
+              <img class="resHide img-fluid2" src="./images/impactify.png" alt="Los Angeles" />
+              <img class="img-fluid2" src="./images/ml.png" alt="Los Angeles" />
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev car-l resDis" href="#demo1" data-slide="prev">
+            <img src="./images/car-left.png" alt="" />
+          </a>
+
+          <a class="carousel-control-next car-r resDis" href="#demo1" data-slide="next">
+            <img src="./images/car-right.png" alt="" />
+          </a>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- What Clients Our Say Section -->
+  <div class="container-fluid">
+    <div class="pt-0">
+      <h1 class="bolder font-30 font-sm-18 bl-red pl-md-4 pl-2 py-1 mx-md-4 mx-1">
+        What our client say
+      </h1>
+
+      <div id="demo2" class="carousel slide py-md-5 px-md-5 py-md-5 py-4 px-0" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-around">
+              <div class="box-design3 mr-5">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h4 class="font-20 bolder">
+                      Ahmed
+                    </h4>
+                    <h6 class="color-black">
+                      Founder, ABC Organisation
+                    </h6>
+                  </div>
+
+                  <div class="b-red px-4 ml-5">
+                    <div class="pt-3">
+                      <span>Linkedin</span>
+                      <img class="pl-3 pb-1" src="./images/linked-in.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-4">
+                  <h6 class="color-black2">
+                    “Velit pariatur qui culpa ullamco incididunt ipsum
+                    cupidatat non est esse do et non do. Nulla anim incididunt
+                    tempor tempor Lorem. Incididunt nostrud et cillum cillum
+                    ipsum in. Aliqua magna esse proident ex culpa nulla aute
+                    aliquip.“
+                  </h6>
+                </div>
+              </div>
+
+              <div class="box-design3 ml-5 resHide">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h4 class="font-20 bolder">
+                      Ahmed
+                    </h4>
+                    <h6 class="color-black">
+                      Founder, ABC Organisation
+                    </h6>
+                  </div>
+
+                  <div class="b-red px-4 ml-5">
+                    <div class="pt-3">
+                      <span>Linkedin</span>
+                      <img class="pl-3 pb-1" src="./images/linked-in.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-4">
+                  <h6 class="color-black2">
+                    “Reprehenderit labore sunt do tempor aliqua elit ea
+                    reprehenderit non minim enim culpa sint. Exercitation
+                    labore nulla non et officia adipisicing. Quis deserunt ut
+                    anim mollit irure officia officia anim ea ipsum tempor
+                    deserunt minim.“
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-around">
+              <div class="box-design3 mr-5 resHide">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h4 class="font-20 bolder">
+                      Ahmed
+                    </h4>
+                    <h6 class="color-black">
+                      Founder, ABC Organisation
+                    </h6>
+                  </div>
+
+                  <div class="b-red px-4 ml-5">
+                    <div class="pt-3">
+                      <span>Linkedin</span>
+                      <img class="pl-3 pb-1" src="./images/linked-in.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-4">
+                  <h6 class="color-black2">
+                    “Velit pariatur qui culpa ullamco incididunt ipsum
+                    cupidatat non est esse do et non do. Nulla anim incididunt
+                    tempor tempor Lorem. Incididunt nostrud et cillum cillum
+                    ipsum in. Aliqua magna esse proident ex culpa nulla aute
+                    aliquip.“
+                  </h6>
+                </div>
+              </div>
+
+              <div class="box-design3 ml-5">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h4 class="font-20 bolder">
+                      Ahmed
+                    </h4>
+                    <h6 class="color-black">
+                      Founder, ABC Organisation
+                    </h6>
+                  </div>
+
+                  <div class="b-red px-4 ml-5">
+                    <div class="pt-3">
+                      <span>Linkedin</span>
+                      <img class="pl-3 pb-1" src="./images/linked-in.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-4">
+                  <h6 class="color-black2">
+                    “Reprehenderit labore sunt do tempor aliqua elit ea
+                    reprehenderit non minim enim culpa sint. Exercitation
+                    labore nulla non et officia adipisicing. Quis deserunt ut
+                    anim mollit irure officia officia anim ea ipsum tempor
+                    deserunt minim.“
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev car-l resDis" href="#demo2" data-slide="prev">
+            <img src="./images/car-left.png" alt="" />
+          </a>
+
+          <a class="carousel-control-next car-r resDis" href="#demo2" data-slide="next">
+            <img src="./images/car-right.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- Footer -->
-    <div class="container-fluid footer-border">
-      <div class="row">
-        <div class="col-sm-4 pt-4 pb-2">
+  <!-- Footer -->
+  <div class="container-fluid footer-border">
+    <div class="row">
+      <div class="col-sm-4 pt-4 pb-2">
+        <div>
+          <img class="ml-4" src="./images/final_logo.png" alt="" width="110" />
+        </div>
+
+        <div class="px-4 pt-4 pb-3">
+          <h4 class="font-18">
+            Keeping Technology Simple
+          </h4>
+
+          <h6 class="color-black2 pt-4">
+            We are an ideas-oriented, focussed & a driven brand, creating a
+            culture of tech inclusion for every dream
+          </h6>
+        </div>
+
+        <div class="d-flex justify-content-around pl-md-0 pl-4">
           <div>
-            <img
-              class="ml-4"
-              src="./images/final_logo.png"
-              alt=""
-              width="110"
-            />
+            <img src="./images/clutch2.png" alt="" width="95" />
           </div>
 
-          <div class="px-4 pt-4 pb-3">
-            <h4 class="font-18">
-              Keeping Technology Simple
-            </h4>
-
-            <h6 class="color-black2 pt-4">
-              We are an ideas-oriented, focussed & a driven brand, creating a
-              culture of tech inclusion for every dream
-            </h6>
-          </div>
-
-          <div class="d-flex justify-content-around pl-md-0 pl-4">
-            <div>
-              <img src="./images/clutch2.png" alt="" width="95" />
+          <div class="ml-md-0 ml-3 mr-md-5" style="padding-top: 35px;">
+            <div style="width: 160px;">
+              <iframe frameborder="0" height="62px" width="160px" scrolling="no" style="transform: scale(1.1);"
+                src="https://widget.clutch.co/widgets/get/1?&amp;uid=777252"></iframe>
             </div>
-
-            <div class="ml-md-0 ml-3 mr-md-5" style="padding-top: 35px;">
-              <div style="width: 160px;">
-                <iframe
-                  frameborder="0"
-                  height="62px"
-                  width="160px"
-                  scrolling="no"
-                  style="transform: scale(1.1);"
-                  src="https://widget.clutch.co/widgets/get/1?&amp;uid=777252"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-8 color-white bg-black pt-4 px-md-5 px-4 pb-2">
-          <div class="row font-14 pt-2 pb-2">
-            <div class="col-sm-6">
-              <h2 class="font-20 bl-red pl-3">Links</h2>
-
-              <div class="pl-3 pt-2">
-                <h6 class="pt-3">
-                  <a href="#!" class="d-color2">Company</a>
-                </h6>
-
-                <h6 class="pt-3">
-                  <a href="#!" class="d-color2">Privacy</a>
-                </h6>
-
-                <h6 class="pt-3">
-                  <a href="#!" class="d-color2">Terms of Services</a>
-                </h6>
-
-                <h6 class="pt-3">
-                  <a href="#!" class="d-color2">Sitemap</a>
-                </h6>
-
-                <h6 class="font-12 pt-4 resHide">
-                  Copyright © 2020 Project42 Labs Private Limited. All Rights
-                  Reserved. <br />
-                  All other trademarks, service marks, referenced in this site
-                  are the property of their respective owners.
-                </h6>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <h2 class="font-20 bl-red pl-3 mt-md-0 mt-5">Contact Us</h2>
-
-              <div class="pl-3 pt-2 font-14">
-                <h6 class="pt-3 pb-1 d-flex">
-                  <div class="font-20">
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  </div>
-
-                  <a
-                    target="_blank"
-                    href="https://www.google.com/maps/place/Project42+Labs+Private+Limited/@28.579943,77.3120803,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce50c9cef0c77:0x5a9471839bf82ee8!8m2!3d28.579943!4d77.314269"
-                    class="d-color2 pl-4"
-                    >A 45-50, 4th Floor, Pioneer House, Sector 16, Noida, India
-                  </a>
-                </h6>
-
-                <h6 class="pt-4 pb-1 d-flex">
-                  <div class="font-20">
-                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                  </div>
-
-                  <a
-                    target="_blank"
-                    href="mailto:hello@project42labs.com?Subject=Let%E2%80%99s%20Build%20Brilliance%20Together"
-                    class="d-color2 pl-4"
-                    >hello@project42labs.com</a
-                  >
-                </h6>
-
-                <h6 class="pt-4 pb-1 d-flex">
-                  <div class="font-20">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                  </div>
-
-                  <a
-                    target="_blank"
-                    href="tel:+918882099488"
-                    class="d-color2 pl-4"
-                    >+91 888 209 9488</a
-                  >
-                  <span>&nbsp;&nbsp;,&nbsp;&nbsp;</span>
-                  <a target="_blank" href="tel:+919886782956" class="d-color2"
-                    >+91 988 678 2956</a
-                  >
-                </h6>
-
-                <h6 class="font-23 pt-4">
-                  <a
-                    target="_blank"
-                    href="https://www.facebook.com/hellop42l/"
-                    class="d-color3 pr-md-3 px-md-0 px-3"
-                  >
-                    <i class="fa fa-facebook"></i>
-                  </a>
-
-                  <a
-                    target="_blank"
-                    href="https://www.linkedin.com/company/project-42-labs/"
-                    class="d-color3 px-3"
-                  >
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-
-                  <a
-                    target="_blank"
-                    href="https://twitter.com/hellop42l"
-                    class="d-color3 px-3"
-                  >
-                    <i class="fa fa-twitter"></i>
-                  </a>
-
-                  <a
-                    target="_blank"
-                    href="skype:live:hello_27490?chat"
-                    class="d-color3 px-3"
-                  >
-                    <i class="fa fa-skype" aria-hidden="true"></i>
-                  </a>
-                </h6>
-              </div>
-            </div>
-
-            <h6 class="font-12 pt-4 text-center resHide2" style="line-height: 18px;">
-              Copyright © 2020 Project42 Labs Private Limited. All Rights
-              Reserved. <br />
-              All other trademarks, service marks, referenced in this site
-              are the property of their respective owners.
-            </h6>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="col-sm-8 color-white bg-black pt-4 px-md-5 px-4 pb-2">
+        <div class="row font-14 pt-2 pb-2">
+          <div class="col-sm-6">
+            <h2 class="font-20 bl-red pl-3">Links</h2>
+
+            <div class="pl-3 pt-2">
+              <h6 class="pt-3">
+                <a href="#!" class="d-color2">Company</a>
+              </h6>
+
+              <h6 class="pt-3">
+                <a href="#!" class="d-color2">Privacy</a>
+              </h6>
+
+              <h6 class="pt-3">
+                <a href="#!" class="d-color2">Terms of Services</a>
+              </h6>
+
+              <h6 class="pt-3">
+                <a href="#!" class="d-color2">Sitemap</a>
+              </h6>
+
+              <h6 class="font-12 pt-4 resHide">
+                Copyright © 2020 Project42 Labs Private Limited. All Rights
+                Reserved. <br />
+                All other trademarks, service marks, referenced in this site
+                are the property of their respective owners.
+              </h6>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <h2 class="font-20 bl-red pl-3 mt-md-0 mt-5">Contact Us</h2>
+
+            <div class="pl-3 pt-2 font-14">
+              <h6 class="pt-3 pb-1 d-flex">
+                <div class="font-20">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                </div>
+
+                <a target="_blank"
+                  href="https://www.google.com/maps/place/Project42+Labs+Private+Limited/@28.579943,77.3120803,17z/data=!3m1!4b1!4m5!3m4!1s0x390ce50c9cef0c77:0x5a9471839bf82ee8!8m2!3d28.579943!4d77.314269"
+                  class="d-color2 pl-4">A 45-50, 4th Floor, Pioneer House, Sector 16, Noida, India
+                </a>
+              </h6>
+
+              <h6 class="pt-4 pb-1 d-flex">
+                <div class="font-20">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+
+                <a target="_blank"
+                  href="mailto:hello@project42labs.com?Subject=Let%E2%80%99s%20Build%20Brilliance%20Together"
+                  class="d-color2 pl-4">hello@project42labs.com</a>
+              </h6>
+
+              <h6 class="pt-4 pb-1 d-flex">
+                <div class="font-20">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+
+                <a target="_blank" href="tel:+918882099488" class="d-color2 pl-4">+91 888 209 9488</a>
+                <span>&nbsp;&nbsp;,&nbsp;&nbsp;</span>
+                <a target="_blank" href="tel:+919886782956" class="d-color2">+91 988 678 2956</a>
+              </h6>
+
+              <h6 class="font-23 pt-4">
+                <a target="_blank" href="https://www.facebook.com/hellop42l/" class="d-color3 pr-md-3 px-md-0 px-3">
+                  <i class="fa fa-facebook"></i>
+                </a>
+
+                <a target="_blank" href="https://www.linkedin.com/company/project-42-labs/" class="d-color3 px-3">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a target="_blank" href="https://twitter.com/hellop42l" class="d-color3 px-3">
+                  <i class="fa fa-twitter"></i>
+                </a>
+
+                <a target="_blank" href="skype:live:hello_27490?chat" class="d-color3 px-3">
+                  <i class="fa fa-skype" aria-hidden="true"></i>
+                </a>
+              </h6>
+            </div>
+          </div>
+
+          <h6 class="font-12 pt-4 text-center resHide2" style="line-height: 18px;">
+            Copyright © 2020 Project42 Labs Private Limited. All Rights
+            Reserved. <br />
+            All other trademarks, service marks, referenced in this site
+            are the property of their respective owners.
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
