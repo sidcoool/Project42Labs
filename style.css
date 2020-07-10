@@ -15,8 +15,8 @@ body {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -32,7 +32,6 @@ body {
 .modal-content1-inner {
   padding: 0px 20px 10px 20px;
 }
-
 
 /* The Close Button */
 .close1 {
@@ -54,10 +53,13 @@ body {
 } */
 
 @keyframes navSlider {
-  from {width: 0%;}
-  to {width: 70%;}
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
 }
-
 
 .font-12 {
   font-size: 12px;
@@ -95,7 +97,6 @@ body {
   font-size: 35px;
 }
 
-
 @media (max-width: 576px) {
   .font-sm-10 {
     font-size: 10px;
@@ -104,27 +105,27 @@ body {
   .font-sm-12 {
     font-size: 12px;
   }
-  
+
   .font-sm-14 {
     font-size: 14px;
   }
-  
+
   .font-sm-16 {
     font-size: 16px;
   }
-  
+
   .font-sm-18 {
     font-size: 18px;
   }
-  
+
   .font-sm-20 {
     font-size: 20px;
   }
-  
+
   .font-sm-23 {
     font-size: 23px;
   }
-  
+
   .font-sm-25 {
     font-size: 25px;
   }
@@ -132,9 +133,7 @@ body {
   .resLogo {
     width: 90px;
   }
-  
 }
-
 
 .color-red {
   color: #d04a4a;
@@ -183,7 +182,6 @@ body {
   width: 500px;
 }
 
-
 .red-shape2 {
   position: absolute;
   z-index: -1;
@@ -193,7 +191,6 @@ body {
   /* bottom: 170px; */
   /* width: 500px; */
 }
-
 
 .nav-design1 {
   /* position: absolute; */
@@ -355,7 +352,6 @@ body {
   border-left: #d04a4a 3px solid;
 }
 
-
 .br-red {
   border-right: #d04a4a 3px solid;
 }
@@ -395,7 +391,6 @@ body {
   width: 320px;
   margin-top: 25px;
 }
-
 
 .box-design2 {
   background: #ffffff;
@@ -453,9 +448,6 @@ body {
   .box-design2 > div > img {
     width: 35px;
   }
-
-
-  
 }
 
 .car-l {
@@ -497,7 +489,6 @@ body {
   .resHide2 {
     display: none;
   }
-  
 }
 
 .dropdown-toggle:after {
@@ -546,10 +537,15 @@ body {
   height: fit-content !important;
 }
 
+@media (max-width: 576px) {
+  .work-page-head {
+    font-size: 16px;
+  }
+}
+
 .work-page-bar {
   width: 80%;
 }
-
 
 .work-page-bar > .active {
   border: black 1px solid;
@@ -579,7 +575,6 @@ body {
 .caseHeight {
   max-height: 450px;
 }
-
 
 .caseHeight2 {
   max-height: 420px;
@@ -676,7 +671,6 @@ body {
   color: #5a5b5b;
 }
 
-
 .bullet-p2 {
   font-size: 16px;
   /* line-height: 30px; */
@@ -703,9 +697,6 @@ body {
   /* padding: 20px; */
 }
 
-
-
-
 /* DS as Service Page CSS */
 
 .ds-banner {
@@ -717,7 +708,6 @@ body {
   background-size: 100% 100%;
 }
 
-
 .box-design7 {
   background: #ffffff;
   border: 0.01rem solid rgb(255, 187, 185);
@@ -728,7 +718,6 @@ body {
   max-width: 300px;
   margin-top: 80px;
 }
-
 
 .box-design8 {
   background: #ffffff;
@@ -742,8 +731,6 @@ body {
   text-align: center;
   margin: 50px 30px 10px 30px;
 }
-
-
 
 /* Careers Page CSS */
 
@@ -771,8 +758,6 @@ body {
   margin-bottom: 80px;
 }
 
-
-
 /* About Us Page CSS */
 
 .aboutus-banner {
@@ -783,7 +768,3 @@ body {
   background-position: center;
   background-size: 100% 100%;
 }
-
-
-
-
