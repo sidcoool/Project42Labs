@@ -859,11 +859,15 @@ body {
 
 .careers-banner {
   background-image: url("./images/careers-banner.png");
-  min-height: 337px;
+  height: 337px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+}
+
+.resDiv6 {
+  width: 500px;
 }
 
 .line-25 {
@@ -880,6 +884,36 @@ body {
   width: 625px;
   margin-bottom: 80px;
 }
+
+@media (max-width: 576px){
+  .careers-banner {
+    height: 150px !important;
+  }
+
+  .resDiv6 {
+    width: 150px;
+  }
+
+  .box-design9{
+    width: 330px !important;
+    padding: 20px 20px !important;
+    margin-bottom: 50px;
+  }
+
+  .box-design9 > div > div > .color-red {
+    font-weight: 600;
+  }
+
+  .resImg4 {
+    width: 250px;
+    float: right;
+  }
+
+  .resPosition > h6 {
+    font-size: 14px;
+  }
+}
+
 
 /* About Us Page CSS */
 
