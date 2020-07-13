@@ -107,7 +107,7 @@ body {
   }
 
   .font-sm-14 {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 
   .font-sm-16 {
@@ -699,7 +699,7 @@ body {
 
 .rpa-banner {
   background-image: url("./images/rpa-banner.png");
-  min-height: 380px;
+  height: 380px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -725,7 +725,32 @@ body {
   line-height: 30px;
 }
 
+
+.line-30 {
+  line-height: 30px;
+}
+
+.box-design6 {
+  min-width: 320px;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186);
+  margin-top: 40px;
+  /* padding: 20px; */
+}
+
+
 @media (max-width: 576px) {
+  .rpa-banner {
+    height: 160px;
+  }
+
+  .resDiv7 {
+    width: 15px;
+    height: 15px;
+  }
+
+
   .industry-unit {
     width: 200px;
     margin-top: 25px;
@@ -745,19 +770,7 @@ body {
   .industry-unit > h6 {
     line-height: 20px;
   }
-}
 
-.line-30 {
-  line-height: 30px;
-}
-
-.box-design6 {
-  min-width: 340px;
-  border: 0.01rem solid rgb(255, 187, 185);
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(190, 186, 186);
-  margin-top: 40px;
-  /* padding: 20px; */
 }
 
 /* DS as Service Page CSS */
