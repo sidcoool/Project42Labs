@@ -564,6 +564,7 @@ body {
 
 @media (max-width: 576px) {
   .scroller1 {
+    justify-content: space-between;
     overflow: auto;
     flex-wrap: nowrap;
     /* max-height: 115px; */
@@ -573,6 +574,7 @@ body {
     padding: 5px 0px;
     min-width: fit-content !important;
     max-width: fit-content !important;
+    white-space: nowrap;
   }
 }
 
@@ -631,9 +633,7 @@ body {
   .resDiv5 {
     width: 110px;
   }
-
 }
-
 
 /* Blog Post CSS */
 
@@ -677,6 +677,21 @@ body {
 @media (max-width: 576px) {
   .blogpost-back {
     height: 300px;
+  }
+
+  .scroller2 {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
+
+  .scroller2 > .nav-link {
+    /* display: flex; */
+    /* flex-wrap: unset; */
+    height: fit-content;
+    white-space: nowrap;
+    /* min-width: 300px; */
   }
 }
 
@@ -834,11 +849,10 @@ body {
   .box-design7 {
     margin-top: 40px;
   }
-  
+
   .card1 {
     width: 300px !important;
   }
-
 }
 
 /* Careers Page CSS */
