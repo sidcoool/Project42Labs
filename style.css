@@ -932,9 +932,23 @@ body {
 
 .aboutus-banner {
   background-image: url("./images/aboutus-banner.png");
-  min-height: 337px;
+  height: 337px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+}
+
+.resDiv8 {
+  width: 480px;
+}
+
+@media (max-width: 576px) {
+  .aboutus-banner {
+    height: 150px;
+  }
+
+  .resDiv8 {
+    width: 180px;
+  }
 }
