@@ -999,6 +999,10 @@ body {
   opacity: 0.5;
 }
 
+.resSpace {
+  letter-spacing: 15px;
+}
+
 @media (max-width: 576px) {
   .team-banner {
     height: 150px;
@@ -1006,6 +1010,10 @@ body {
 
   .resDiv9 {
     width: 200px;
+  }
+
+  .resSpace {
+    letter-spacing: 5px;
   }
 }
 
