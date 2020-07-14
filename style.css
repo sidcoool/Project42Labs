@@ -718,7 +718,7 @@ body {
 
 .rpa-banner {
   background-image: url("./images/rpa-banner.png");
-  height: 380px;
+  height: 360px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -788,7 +788,7 @@ body {
   }
 }
 
-/* DS as Service Page CSS */
+/* Data Science as Service Page CSS */
 
 .ds-banner {
   background-image: url("./images/ds-service-banner.png");
@@ -882,6 +882,56 @@ body {
     width: 300px !important;
   }
 }
+
+
+/* Machine Learning As Service */
+
+.ml-banner {
+  background-image: url("./images/ml-service-banner.png");
+  height: 350px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.box-design11 {
+  background: #ffffff;
+  border: 0.01rem solid rgb(255, 187, 185);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(190, 186, 186, 0.5);
+  color: #d04a4a;
+  padding: 15px;
+  max-width: 300px;
+  margin-top: 80px;
+  text-align: center;
+  margin: 50px 40px 10px 50px;
+  width: 400px;
+}
+
+@media (max-width: 576px) {
+  .ml-banner {
+    height: 180px;
+  }
+
+  .box-design11 > img {
+    width: 30px;
+  }
+
+  .box-design11 > h5 {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+  .box-design11 > h6 {
+    padding-top: 3px !important;
+    font-size: 14px;
+  }
+
+}
+
+
+
 
 /* Careers Page CSS */
 
@@ -1176,3 +1226,45 @@ label {
   border-radius: 50%;
   background: rgb(78, 73, 73);
 }
+
+
+/* Solutions (OCR) CSS */
+
+.ocr-banner {
+  background-image: url("./images/ocr-banner.png");
+  height: 360px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 576px){
+  .ocr-banner {
+    height: 155px;
+  }
+}
+
+
+
+/* Solutions (Data Scrapping) CSS */
+
+.scrapping-banner {
+  background-image: url("./images/scrapping-banner.png");
+  height: 360px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 576px){
+  .scrapping-banner {
+    height: 160px;
+  }
+}
+
+
+
+
+
