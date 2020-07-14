@@ -20,6 +20,10 @@
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Phone CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.2/css/intlTelInput.css">
+
+
     <script src="script.js"></script>
 
     <title>
@@ -118,7 +122,7 @@
                 </li>
 
                 <li class="nav-item active pl-3">
-                    <button id="sChange" class="btn1" onclick="window.open('/contact-us.html','_self')">Contact Us</button>
+                    <button id="sChange" class="btn1" onclick="window.open('/contact-us','_self')">Contact Us</button>
                 </li>
             </ul>
         </div>
@@ -210,208 +214,148 @@
         </div>
     </nav>
 
+
     <!-- Top Banner Section  -->
-    <div class="container-fluid work-banner m-0 p-0">
-        <div class="work-banner-inner color-white p-md-5 p-3">
-            <h1 class="font-35 font-sm-20 bl-white pl-md-3 pl-2 py-1 mt-4 bolder">
-                Work
-            </h1>
-            <h2 class="font-25 font-sm-14 p-md-4 px-md-4 px-3 p-1 resDiv2">
-                We're building disruptive and exciting products, come join us...
+    <div class="container-fluid contactus-banner color-white px-md-5 px-2 pt-md-4 mb-2">
+        <div class="mt-md-5">
+            <h1 class="font-35 font-sm-18 bl-white pl-md-2 pl-2 pl-md-4">Contact Us</h1>
+            <h2 class="font-25 font-sm-14 pt-md-4 px-2 resDiv10">
+                Build Beautiful, Scalable & Secure Tech Solutions For Your Business
             </h2>
         </div>
     </div>
 
-    <!-- Our Case Studies Section -->
-    <div class="container-fluid">
-        <div class="row px-md-5 d-flex justify-content-center">
-            <div class="d-flex justify-content-md-around py-4 work-page-bar nav nav-pills scroller1" role="tablist">
-                <div class="nav-link work-page-head active" data-toggle="pill" href="#all">
-                    All
-                </div>
-                <div class="nav-link work-page-head" data-toggle="pill" href="#enterprise">
-                    Enterprise
-                </div>
-                <div class="nav-link work-page-head" data-toggle="pill" href="#general">
-                    General
-                </div>
-                <div class="nav-link work-page-head" data-toggle="pill" href="#mag">
-                    Magento E-commerce
-                </div>
-                <div class="nav-link work-page-head" data-toggle="pill" href="#pr">
-                    Press Release
-                </div>
-                <div class="nav-link work-page-head" data-toggle="pill" href="#ecd">
-                    E-commerce Development
-                </div>
-            </div>
-        </div>
 
-        <!-- Our Case Studies -->
-        <div class="container-fluid px-md-5 pt-4 pb-5 tab-content">
-            <h1 class="bolder font-30 font-sm-20 bl-red pl-md-4 pl-2 py-1">
-                Our Case Studies
-            </h1>
+    <!-- Leadership Team Section -->
+    <div class="container-fluid p-md-5">
 
-            <div class="px-md-5 mx-md-4 tab-pane active" id="all">
-                <div class="row box-design4 p-0 mx-md-0 mx-3">
-                    <div class="col-sm-3 p-0">
-                        <img class="img-fluid" src="./images/work-laptop.png" alt="" />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="bl-red row">
+                        <h1 class="bolder font-25 font-sm-18 pl-md-4 pl-2 py-1">
+                            Let's make something together
+                        </h1>
+
+                        <h6 class="color-black5 pl-4 line-25">
+                            Please Send Us Your Details, We Shall Contact You Within 24 Hours. <br>
+                            We Keep Your Details Confidential.
+                        </h6>
                     </div>
 
-                    <div class="col-sm-9 pt-4 pb-md-0 pb-2 px-md-4 px-3">
-                        <div class="d-flex justify-content-between pb-0 mb-0">
-                            <div>
-                                <h4 class="bolder font-20 font-sm-18 bl-red pl-md-4 pl-2 pt-1">Case 1</h4>
-                                <h6 class="color-black2 font-14 font-sm-12 pl-md-4 pl-2 pt-0 mt-0">
-                                    Fri May 29 2020
-                                </h6>
+                    <div class="pt-5 mt-4">
+                        <img class="img-fluid" src="./images/handshake.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="box-design10">
+                        <h6 class="font-12 fit-width ml-auto mr-3 m-1">*Required fields</h6>
+                        <form method="post" class="pt-4 px-3" action="">
+                            <div class="d-flex justify-content-between">
+                                <div class="form-group px-2">
+                                    <label for="name">*Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter Your Name"
+                                        name="name">
+                                </div>
+
+                                <div class="form-group px-2">
+                                    <label for="email">*Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email"
+                                        name="email">
+                                </div>
                             </div>
-                            <button class="btn3 font-sm-12" style="height: 45px;">Enterprise</button>
-                        </div>
 
+                            <div class="d-flex justify-content-between">
+                                <div class="form-group px-2">
+                                    <label for="phone">*Phone</label> <br>
+                                    <input type="tel" name="phone" id="phone" placeholder="Enter Your Number"
+                                        class="form-control" value="+91 ">
+                                </div>
 
-                        <div class="pl-md-4 pl-2 pt-md-3 pt-2">
-                            <h6 class="color-red">The challenge</h6>
-                            <h6 class="color-black2 font-sm-14">
-                                The company was crippled with creases of internal resource
-                                optimization. They approached us to iron out the issues by an
-                                audit of codes.
-                                <span class="color-red">
-                                    <a href="./caseStudy.html" class="d-color2">
-                                        Read More
-                                    </a>
-                                    <span> >> </span>
-                                </span>
-                            </h6>
-                        </div>
-                    </div>
-                </div>
+                                <div class="form-group px-2">
+                                    <label for="looking" class="pb-3">*Looking for</label> <br>
 
-                <div class="row box-design4 p-0 mx-md-0 mx-3">
-                    <div class="col-sm-3 p-0">
-                        <img class="img-fluid" src="./images/work-laptop.png" alt="" />
-                    </div>
+                                    <label class="radio">
+                                        <input type="radio" id="job" name="looking" onclick="toggleLooking()" checked>
+                                        <span class="checkround"></span>
+                                        <span class="color-black"> Job </span>
 
-                    <div class="col-sm-9 pt-4 pb-md-0 pb-2 px-md-4 px-3">
-                        <div class="d-flex justify-content-between pb-0 mb-0">
-                            <div>
-                                <h4 class="bolder font-20 font-sm-18 bl-red pl-md-4 pl-2 pt-1">Case 1</h4>
-                                <h6 class="color-black2 font-14 font-sm-12 pl-md-4 pl-2 pt-0 mt-0">
-                                    Fri May 29 2020
-                                </h6>
+                                        <label class="radio ml-4">
+                                            <input type="radio" id="solution" name="looking" onclick="toggleLooking()">
+                                            <span class="checkround"></span>
+                                            <span class="color-black"> Solutions </span>
+                                        </label>
+                                </div>
                             </div>
-                            <button class="btn3 font-sm-12" style="height: 45px;">Enterprise</button>
-                        </div>
 
 
-                        <div class="pl-md-4 pl-2 pt-md-3 pt-2">
-                            <h6 class="color-red">The challenge</h6>
-                            <h6 class="color-black2 font-sm-14">
-                                The company was crippled with creases of internal resource
-                                optimization. They approached us to iron out the issues by an
-                                audit of codes.
-                                <span class="color-red">
-                                    <a href="./caseStudy.html" class="d-color2">
-                                        Read More
-                                    </a>
-                                    <span> >> </span>
-                                </span>
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row box-design4 p-0 mx-md-0 mx-3">
-                    <div class="col-sm-3 p-0">
-                        <img class="img-fluid" src="./images/work-laptop.png" alt="" />
-                    </div>
-
-                    <div class="col-sm-9 pt-4 pb-md-0 pb-2 px-md-4 px-3">
-                        <div class="d-flex justify-content-between pb-0 mb-0">
-                            <div>
-                                <h4 class="bolder font-20 font-sm-18 bl-red pl-md-4 pl-2 pt-1">Case 1</h4>
-                                <h6 class="color-black2 font-14 font-sm-12 pl-md-4 pl-2 pt-0 mt-0">
-                                    Fri May 29 2020
-                                </h6>
+                            <div class="d-flex justify-content-around py-2 pb-4">
+                                <div class="line2 mr-4"></div>
+                                <div class="circle2"></div>
+                                <div class="line2 ml-4"></div>
                             </div>
-                            <button class="btn3 font-sm-12" style="height: 45px;">Enterprise</button>
-                        </div>
 
+                            <div class="justify-content-between" id="showJob">
+                                <div class="form-group px-2">
+                                    <label for="name">Apply for</label>
+                                    <div class="dropdown">
+                                        <button type="button" class="btn7 dropdown-toggle" data-toggle="dropdown">
+                                            Content Lead
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
+                                        </div>
+                                    </div>
+                                </div>
 
-                        <div class="pl-md-4 pl-2 pt-md-3 pt-2">
-                            <h6 class="color-red">The challenge</h6>
-                            <h6 class="color-black2 font-sm-14">
-                                The company was crippled with creases of internal resource
-                                optimization. They approached us to iron out the issues by an
-                                audit of codes.
-                                <span class="color-red">
-                                    <a href="./caseStudy.html" class="d-color2">
-                                        Read More
-                                    </a>
-                                    <span> >> </span>
-                                </span>
-                            </h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row box-design4 p-0 mx-md-0 mx-3">
-                    <div class="col-sm-3 p-0">
-                        <img class="img-fluid" src="./images/work-laptop.png" alt="" />
-                    </div>
-
-                    <div class="col-sm-9 pt-4 pb-md-0 pb-2 px-md-4 px-3">
-                        <div class="d-flex justify-content-between pb-0 mb-0">
-                            <div>
-                                <h4 class="bolder font-20 font-sm-18 bl-red pl-md-4 pl-2 pt-1">Case 1</h4>
-                                <h6 class="color-black2 font-14 font-sm-12 pl-md-4 pl-2 pt-0 mt-0">
-                                    Fri May 29 2020
-                                </h6>
+                                <div class="form-group px-2">
+                                    <label>Upload Resume (pdf , doc, docx)</label>
+                                    <button class="btn8 mt-1">Browse</button>
+                                </div>
                             </div>
-                            <button class="btn3 font-sm-12" style="height: 45px;">Enterprise</button>
-                        </div>
 
 
-                        <div class="pl-md-4 pl-2 pt-md-3 pt-2">
-                            <h6 class="color-red">The challenge</h6>
-                            <h6 class="color-black2 font-sm-14">
-                                The company was crippled with creases of internal resource
-                                optimization. They approached us to iron out the issues by an
-                                audit of codes.
-                                <span class="color-red">
-                                    <a href="./caseStudy.html" class="d-color2">
-                                        Read More
-                                    </a>
-                                    <span> >> </span>
-                                </span>
-                            </h6>
-                        </div>
+                            <div class="justify-content-between" id="showSolution">
+                                <div class="form-group px-2">
+                                    <label for="c-name">Company name (with designation)</label>
+                                    <input type="text" class="form-control" id="c-name" placeholder="Enter Your Company Name"
+                                        name="c-name">
+                                </div>
+
+                                <div class="form-group px-2">
+                                    <label for="name">Our Services</label>
+                                    <div class="dropdown">
+                                        <button type="button" class="btn7 dropdown-toggle" data-toggle="dropdown">
+                                            Select One
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Link 1</a>
+                                            <a class="dropdown-item" href="#">Link 2</a>
+                                            <a class="dropdown-item" href="#">Link 3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="width: 100% !important;">
+                                <label>Message</label>
+                                <textarea name="msg" class="p-2" placeholder="Type here..." rows="4"
+                                    style="width: 100%; max-width: 100%;"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn4 px-4 m-2">Send</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </div>
-
-            <div class="px-md-5 mx-md-4 tab-pane fade" id="enterprise">
-                <h2>Enterprise</h2>
-            </div>
-
-            <div class="px-md-5 mx-md-4 tab-pane fade" id="general">
-                <h2>General</h2>
-            </div>
-
-            <div class="px-md-5 mx-md-4 tab-pane fade" id="mag">
-                <h2>Magneto Ecommerce</h2>
-            </div>
-
-            <div class="px-md-5 mx-md-4 tab-pane fade" id="pr">
-                <h2>Press Release</h2>
-            </div>
-
-            <div class="px-md-5 mx-md-4 tab-pane fade" id="ecd">
-                <h2>E Commerce dev</h2>
             </div>
         </div>
     </div>
+
+
 
     <!-- Footer -->
     <div class="container-fluid footer-border">
@@ -499,7 +443,8 @@
 
                                 <a target="_blank"
                                     href="mailto:hello@project42labs.com?Subject=Let%E2%80%99s%20Build%20Brilliance%20Together"
-                                    class="d-color2 pl-4">hello@project42labs.com</a>
+                                    class="d-color2 pl-4">hello@project42labs.com
+                                </a>
                             </h6>
 
                             <h6 class="pt-4 pb-1 d-flex">
@@ -547,6 +492,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.11/js/intlTelInput.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.11/js/utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.2/js/intlTelInput.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input);
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

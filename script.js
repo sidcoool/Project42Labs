@@ -65,7 +65,37 @@ document.addEventListener("DOMContentLoaded", () => {
       modal.style.display = "none";
     }
   }
+
+  let job = document.getElementById("job").checked;
+
+  if (job) {
+    // console.log("hello")
+    document.getElementById("showJob").style.display = "flex";
+    document.getElementById("showSolution").style.display = "none";
+    // document.getElementById("showSolution").style.backgroundColor = "red";
+  }
+  else {
+    document.getElementById("showJob").style.display = "none";
+    document.getElementById("showSolution").style.display = "flex";
+  }
 });
+
+
+function toggleLooking() {
+  let job = document.getElementById("job").checked;
+  // console.log(job)
+
+  if (job) {
+    document.getElementById("showJob").style.display = "flex";
+    document.getElementById("showSolution").style.display = "none";
+  }
+  else {
+    document.getElementById("showJob").style.display = "none";
+    document.getElementById("showSolution").style.display = "flex";
+  }
+}
+
+
 
 
 function onScroll2() {

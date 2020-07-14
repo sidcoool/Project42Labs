@@ -162,6 +162,10 @@ body {
   line-height: 24px;
 }
 
+.color-black5 {
+  color: #5a5b5b;
+}
+
 .bg-red {
   background-color: #d04a4a;
 }
@@ -295,6 +299,21 @@ body {
   padding: 10px;
   border: 1px white solid;
   color: white;
+}
+
+.btn8 {
+  background: black;
+  padding: 4px 8px;
+  border: 1px black solid;
+  color: white;
+  font-size: 14px;
+}
+
+.btn8:hover {
+  background: white;
+  /* padding: 10px; */
+  border: 1px black solid;
+  color: black;
 }
 
 .d-color {
@@ -725,7 +744,6 @@ body {
   line-height: 30px;
 }
 
-
 .line-30 {
   line-height: 30px;
 }
@@ -739,7 +757,6 @@ body {
   /* padding: 20px; */
 }
 
-
 @media (max-width: 576px) {
   .rpa-banner {
     height: 160px;
@@ -749,7 +766,6 @@ body {
     width: 15px;
     height: 15px;
   }
-
 
   .industry-unit {
     width: 200px;
@@ -770,7 +786,6 @@ body {
   .industry-unit > h6 {
     line-height: 20px;
   }
-
 }
 
 /* DS as Service Page CSS */
@@ -898,7 +913,7 @@ body {
   margin-bottom: 80px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .careers-banner {
     height: 150px !important;
   }
@@ -907,7 +922,7 @@ body {
     width: 150px;
   }
 
-  .box-design9{
+  .box-design9 {
     width: 330px !important;
     padding: 20px 20px !important;
     margin-bottom: 50px;
@@ -926,7 +941,6 @@ body {
     font-size: 14px;
   }
 }
-
 
 /* About Us Page CSS */
 
@@ -951,4 +965,206 @@ body {
   .resDiv8 {
     width: 180px;
   }
+}
+
+/* Team Page CSS */
+
+.team-banner {
+  background-image: url("./images/team-banner.png");
+  height: 310px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.resDiv9 {
+  width: 650px;
+}
+
+.line1 {
+  height: 3px;
+  width: 38%;
+  background-color: #d04a4a;
+  opacity: 0.5;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.circle1 {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: #d04a4a;
+  opacity: 0.5;
+}
+
+@media (max-width: 576px) {
+  .team-banner {
+    height: 150px;
+  }
+
+  .resDiv9 {
+    width: 200px;
+  }
+}
+
+/* Contact Us Page CSS */
+
+.contactus-banner {
+  background-image: url("./images/contactus-banner.png");
+  height: 310px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.box-design10 {
+  background: #ffffff;
+  border: 0.5px solid rgba(253, 137, 137, 0.5);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(91, 89, 88, 0.15);
+  color: #d04a4a;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.resDiv10 {
+  width: 650px;
+}
+
+@media (max-width: 576px) {
+  .contactus-banner {
+    height: 150px;
+  }
+
+  .resDiv10 {
+    width: 200px;
+  }
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  box-shadow: none !important;
+  /* max-width: 250px; */
+}
+
+.form-group {
+  width: 280px;
+}
+
+.form-control::placeholder {
+  opacity: 0.7;
+}
+
+.form-control:focus {
+  border-bottom: 1px solid #000000;
+}
+
+.line2 {
+  height: 1px;
+  width: 45%;
+  background-color: #d04a4a;
+  opacity: 0.5;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.circle2 {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #d04a4a;
+  opacity: 0.5;
+}
+
+.btn7 {
+  border: 1px black solid;
+  background: transparent;
+  color: #5f6b6d;
+  padding: 3px 0px;
+  width: 240px;
+  margin-top: 5px;
+}
+
+.btn7::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 4.255em;
+  vertical-align: 0.115em;
+  content: "";
+  border-top: 0.5em solid;
+  border-right: 0.4em solid transparent;
+  border-bottom: 0;
+  border-left: 0.4em solid transparent;
+  color: #000000;
+}
+
+label {
+  font-size: 14px;
+}
+/* The radio */
+.radio {
+  /* display: block; */
+  position: relative;
+  padding-left: 24px;
+  /* margin-bottom: 2px; */
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-color: rgb(78, 73, 73);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkround {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkround:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkround:after {
+  left: 2px;
+  top: 2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgb(78, 73, 73);
 }
